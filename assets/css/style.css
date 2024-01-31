@@ -26,7 +26,7 @@ header {
     width: 100%;
     z-index: 100;
     align-items: flex-start;
-    padding: 0  10px;
+    padding: 0 10px;
     background-color: white;
 }
 
@@ -42,6 +42,7 @@ header img {
 #menu-container {
     text-align: end;
 }
+
 /*Styles the header separator*/
 header #separator {
     background-color: purple;
@@ -87,21 +88,27 @@ nav {
 
 main {
     margin-top: 55px;
-    background-color: lightcoral;
     display: flex;
     flex-direction: column;
     /*takes all the available space of the page*/
     flex: 1 0 auto;
- }
+}
 
 #carousel-section {
     width: 100%;
+    height: 300px;
     padding: 0 10px;
+
 }
- 
-#welcome-section{
+
+#carousel-image {
+    background: url(../images/Carousel_Image_1.png) no-repeat top center /cover;
+}
+
+#welcome-section {
     width: 100%;
     padding: 0 10px;
+
 }
 
 footer {
