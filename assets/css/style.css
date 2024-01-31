@@ -1,37 +1,84 @@
 /*Google Fonts Import - Poppins*/
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Asterisk wildcard*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 /*General styles*/
-body{
+body {
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box
-    ;
+
 }
+
 /*header styles*/
 header {
     display: flex;
     flex-direction: row;
     background-color: lightblue;
+    justify-content: space-around;
+    /*keep it fixed on top and always visible*/
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    align-items: flex-start;
+    padding: 0  10px;
 }
 
-header>div{
+header>div {
     width: 50%;
 }
-header img{
+
+header img {
     max-width: 150px;
 }
 
-header #separator{
+/*Places the hamburger icon on the right end*/
+#menu-container {
+    text-align: end;
+}
+/*Styles the header separator*/
+header #separator {
     background-color: purple;
     width: 100%;
     height: 15px;
+    align-self: baseline;
 }
 
+/*Navbar styles with dropdown toggle (hamburger menu)*/
+nav {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    display: none;
+    /*starts at the end of the parent element (header)*/
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+    text-align: left;
+}
+
+.nav-toggle-label {
+    font-size: 1.5rem;
+    text-align: end;
+}
+
+/*eliminates the checkbox from the hamburger-menu icon*/
+#nav-toggle {
+    display: none;
+}
+
+
 main {
+    margin-top: 55px;
     background-color: lightcoral;
 }
 
