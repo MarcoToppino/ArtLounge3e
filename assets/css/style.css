@@ -6,6 +6,10 @@ body{
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+    ;
 }
 /*header styles*/
 header {
@@ -13,8 +17,17 @@ header {
     flex-direction: row;
     background-color: lightblue;
 }
+
+header>div{
+    width: 50%;
+}
 header img{
-    max-width: 50%;
+    max-width: 150px;
+}
+
+header #separator{
+    background-color: purple;
+    width: 100%;
 }
 
 main {
