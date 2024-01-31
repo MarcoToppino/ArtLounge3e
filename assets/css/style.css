@@ -20,7 +20,6 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    background-color: lightblue;
     justify-content: space-around;
     /*keep it fixed on top and always visible*/
     position: fixed;
@@ -50,12 +49,20 @@ header #separator {
     align-self: baseline;
 }
 
+/*Rmoves standard styles from the menu items*/
+header a {
+    text-decoration: none;
+}
+
+
+
+
 /*Navbar styles with dropdown toggle (hamburger menu)*/
 nav {
     position: absolute;
     background-color: white;
     width: 100%;
-    left: 0;
+    left: 10px;
     display: none;
     /*starts at the end of the parent element (header)*/
     top: 100%;
@@ -80,6 +87,9 @@ nav {
 main {
     margin-top: 55px;
     background-color: lightcoral;
+    display: flex;
+    /*takes all the available space of the page*/
+    flex: 1 0 auto;
 }
 
 footer {
