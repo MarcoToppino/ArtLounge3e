@@ -4,10 +4,17 @@
 /*General styles*/
 body{
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
-
+/*header styles*/
 header {
+    display: flex;
+    flex-direction: row;
     background-color: lightblue;
+}
+header img{
+    max-width: 50%;
 }
 
 main {
