@@ -28,6 +28,7 @@ header img{
 header #separator{
     background-color: purple;
     width: 100%;
+    height: 15px;
 }
 
 main {
