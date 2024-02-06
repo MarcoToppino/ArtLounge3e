@@ -30,22 +30,28 @@ header {
     background-color: white;
 }
 
-header>div {
+header div {
     width: 50%;
+    height: 50px;
+}
+#logo-container{
+    float: left;
+    background-image: url(../images/ArtLoung3E_Logo.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
-header img {
-    max-width: 150px;
-}
-
-/*Places the hamburger icon on the right end*/
+/*Places the hamburger icon on the right end and style it*/
 #menu-container {
     text-align: end;
+    color: #CEC1E0;
 }
 
 /*Styles the header separator*/
 header #separator {
-    background-color: purple;
+    background-color: #CEC1E0;
     width: 100%;
     height: 15px;
     align-self: baseline;
@@ -61,7 +67,7 @@ nav {
     position: absolute;
     background-color: white;
     width: 100%;
-    left: 10px;
+    left: 0px;
     display: none;
     /*starts at the end of the parent element (header)*/
     top: 100%;
