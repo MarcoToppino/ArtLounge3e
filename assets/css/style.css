@@ -167,6 +167,16 @@ main {
     margin: 10px;
 }
 
+#experiences button {
+    padding: 12px 24px;
+    background-color: white;
+    border-radius: 25px;
+    border: 4px solid#f0f7ec;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
 
 #workshops {
     background-color: #b5d6a6;
@@ -193,6 +203,12 @@ section img {
     height: 50vw;
     margin-top: 10px;
 }
+
+
+
+
+
+
 
 /*styles for testimonials section*/
 #testimonials p,
