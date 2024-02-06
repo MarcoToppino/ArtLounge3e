@@ -16,6 +16,16 @@ body {
 
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+/*left border with colour, for section headings*/
+.left{
+    border-left: 5px solid #F0CB83 ;
+    padding: 10px;
+}
+
+
 /*header styles*/
 header {
     display: flex;
@@ -118,6 +128,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10%;
+    margin: 10px;
 }    
 #carousel-buttons{
     height: 50px;
@@ -126,7 +137,11 @@ main {
 #welcome-section {
     width: 100%;
     padding: 0 10px;
+}
 
+section p {
+    text-justify: auto;
+    margin: 10px;
 }
 
 footer {
