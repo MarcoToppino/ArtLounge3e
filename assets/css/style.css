@@ -69,8 +69,22 @@ nav {
     width: 100%;
     left: 0px;
     display: none;
+    color: black;
     /*starts at the end of the parent element (header)*/
     top: 100%;
+
+}
+
+li {
+        /*styles for the navbar elements*/
+        border-bottom: 1px solid #e8e8e8;
+        padding: 10px;
+        display: block;
+}
+
+/*cative position class styles*/
+.active {
+    background-color: #CEC1E0;
 }
 
 #nav-toggle:checked~nav {
