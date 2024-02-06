@@ -16,6 +16,12 @@ body {
 
 }
 
+h2, h3 {
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -23,6 +29,10 @@ body {
 .left{
     border-left: 5px solid #F0CB83 ;
     padding: 10px;
+}
+
+.center{
+    text-align: center;
 }
 
 
@@ -137,12 +147,29 @@ main {
 #welcome-section {
     width: 100%;
     padding: 0 10px;
+    align-items: center;
 }
 
 section p {
     text-justify: auto;
     margin: 10px;
 }
+
+/*styled for the experiences section and divs*/
+#workshops{
+    background-color: #b5d6a6;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+section img {
+    height: 50vw;
+}
+
+
+
+
 
 footer {
     background-color: lightgreen;
