@@ -95,7 +95,7 @@ nav {
 
 }
 
-li {
+nav li {
         /*styles for the navbar elements*/
         border-bottom: 1px solid #e8e8e8;
         padding: 10px;
@@ -186,5 +186,33 @@ section img {
 
 
 footer {
-    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:white;
+}
+footer p {
+    margin-left: 10px;
+}
+
+#footer-separator{
+    background-color: #CEC1E0;
+    width: 100%;
+    height: 15px;
+    align-self: flex-start;
+}
+
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #CEC1E0;
 }
