@@ -158,6 +158,11 @@ main {
 }
 
 /*styles for the experiences section and divs*/
+#experiences p{
+    margin: 10px;
+}
+
+
 #workshops{
     background-color: #b5d6a6;
     border-radius: 5px;
@@ -179,8 +184,13 @@ main {
 
 section img {
     height: 50vw;
+    margin-top: 10px;
 }
 
+/*styles for testimonials section*/
+#testimonials p, #testimonials i {
+margin: 10px;
+}
 
 
 
