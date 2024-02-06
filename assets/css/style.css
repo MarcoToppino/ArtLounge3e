@@ -82,7 +82,7 @@ li {
         display: block;
 }
 
-/*cative position class styles*/
+/*active position class styles*/
 .active {
     background-color: #CEC1E0;
 }
@@ -111,15 +111,13 @@ main {
     flex: 1 0 auto;
 }
 
-#carousel-section {
-    
-}
 #carousel-image{
-    height: 90vw;
+    height: 100vw;
     background-image: url(../images/Carousel_Image_1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10%;
 }    
 #carousel-buttons{
     height: 50px;
