@@ -143,21 +143,35 @@ main {
 #carousel-buttons{
     height: 50px;
 }
-
+/*styles for the welcome section*/
 #welcome-section {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     padding: 0 10px;
     align-items: center;
 }
 
-section p {
-    text-justify: auto;
+#welcome-section p {
+    text-align: left;
     margin: 10px;
 }
 
-/*styled for the experiences section and divs*/
+/*styles for the experiences section and divs*/
 #workshops{
     background-color: #b5d6a6;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+#courses{
+    background-color: #c39afc;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+#events{
+    background-color: #F0CB83;
     border-radius: 5px;
     align-items: center;
     text-align: center;
