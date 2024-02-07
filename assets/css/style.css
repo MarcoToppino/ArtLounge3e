@@ -160,6 +160,7 @@ main {
 #welcome-section p {
     text-align: left;
     margin: 10px;
+    width: 100%;
 }
 
 /*styles for the experiences section and divs*/
