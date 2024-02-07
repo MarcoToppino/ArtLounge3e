@@ -96,7 +96,7 @@ nav li {
     /*styles for the navbar elements*/
     border-bottom: 1px solid #e8e8e8;
     padding: 0.5rem;
-    display: block;
+    width: 100%;
 }
 
 /*active position class styles*/
