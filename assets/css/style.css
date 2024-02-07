@@ -177,7 +177,8 @@ main {
     margin-bottom: 20px;
 }
 
-button a:link, button a:visited {
+button a:link,
+button a:visited {
     text-decoration: none;
 
 }
@@ -185,22 +186,22 @@ button a:link, button a:visited {
 #workshops {
     background-color: #b5d6a6;
     border-radius: 5px;
-    align-items: center;
     text-align: center;
+    margin: 0.5rem;
 }
 
 #courses {
     background-color: #c39afc;
     border-radius: 5px;
-    align-items: center;
     text-align: center;
+    margin: 0.5rem;
 }
 
 #events {
     background-color: #F0CB83;
     border-radius: 5px;
-    align-items: center;
     text-align: center;
+    margin: 0.5rem;
 }
 
 section img {
