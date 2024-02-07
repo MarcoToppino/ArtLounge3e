@@ -59,7 +59,7 @@ header div {
 
 #logo-container img {
     width: 100%;
-    max-width:160px;
+    max-width: 160px;
 }
 
 /*Places the hamburger icon on the right end and style it*/
@@ -221,7 +221,7 @@ section img {
 
 /*styles for contact page*/
 /*contact message*/
-#contact-message{
+#contact-message {
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
@@ -236,6 +236,7 @@ section img {
     padding-top: 2rem;
     padding-left: 1rem;
 }
+
 /*email & phone*/
 #email-phone {
     display: block;
@@ -243,17 +244,21 @@ section img {
     padding-left: 2rem;
     padding-bottom: 2rem;
 }
+
 /*form*/
 form {
     padding-left: 2rem;
     width: 80vw;
 }
 
-#name, #email, #subject, #message {
+#name,
+#email,
+#subject,
+#message {
     padding: 0.5rem 1rem;
     border: 1px solid black;
     max-width: 200px;
-    margin-top: 0,5rem;
+    margin-top: 0, 5rem;
 }
 
 form button {
@@ -305,40 +310,41 @@ footer p {
 
     /* Header */
     /*blocks the amount of space for the logo*/
-    #logo-container {
-        max-width: 140px;
-    }
+
     /*expands the menu container on the page*/
-    #menu-container{
+    #menu-container {
         display: flex;
         flex-direction: column;
         flex-grow: 1;
     }
+
     /*shows the menu on a row, on top*/
     nav {
         display: flex;
         width: fit-content;
-        order: 1;
         top: 0;
-        left: auto;
+        left: 33%;
         align-self: flex-end;
-   }
-  
-   #menu{
-    display: flex;
-    list-style: none;
-   }
+    }
 
-/*brings the divider on the bottom*/
-#separator {
-    order: 3;    
+    #menu {
+        display: flex;
+        list-style: none;
+    }
+
+    /*brings the divider on the bottom*/
+    #separator {
+        position: absolute;
+        left: 200px;
+        top: 42px;
+    }
+
+    /*hides the drop-down toggle*/
+    .nav-toggle-label {
+        display: none;
+
+    }
 }
-/*hides the drop-down toggle*/
-.nav-toggle-label {
-    display: none;
-
-}
 
 
-
-/*laptops 1024px and up*/
+    /*laptops 1024px and up*/
