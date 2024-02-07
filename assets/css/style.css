@@ -240,6 +240,27 @@ section img {
     padding-left: 2rem;
     padding-bottom: 2rem;
 }
+/*form*/
+form {
+    padding-left: 2rem;
+    width: 80vw;
+}
+
+#name, #email, #subject, #message {
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    max-width: 200px;
+    margin-top: 0,5rem;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border-radius: 25px;
+    border: 4px solid #CEC1E0;
+    text-transform: uppercase;
+    margin: 0.5rem;
+}
 
 /*styles for footer*/
 footer {
