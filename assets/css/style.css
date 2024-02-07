@@ -57,13 +57,8 @@ header div {
     height: 50px;
 }
 
-#logo-container {
-    float: left;
-    background-image: url(../images/ArtLoung3E_Logo.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: contain;
-
+#logo-container img {
+    width: 100%;
 }
 
 /*Places the hamburger icon on the right end and style it*/
