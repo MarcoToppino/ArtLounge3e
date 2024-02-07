@@ -217,6 +217,31 @@ section img {
 }
 
 
+/*styles for contact page*/
+/*contact message*/
+#contact-message{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+#contact-message h2 {
+    border-color: #CEC1E0;
+}
+
+#contact-message p {
+    width: 80vw;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+/*email & phone*/
+#email-phone {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+/*styles for footer*/
 footer {
     display: flex;
     flex-direction: column;
