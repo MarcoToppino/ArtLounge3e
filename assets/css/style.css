@@ -13,7 +13,6 @@ body {
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -42,84 +41,75 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    background-color: white;
     /*keep it fixed on top and always visible*/
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 100;
-    align-items: normal;
-    padding: 0 0.5rem;
-    background-color: white;
 }
 
-header div {
-    /*starts with an equal dimension of the divs in the header*/
-    width: 50%;
-    height: 3rem;
-}
 
-#logo-container img {
-    width: 100%;
+/*makes the logo container max 50% of the screen on small screens, while menu-container takes all the remaining space*/
+#logo-container {
     max-width: 160px;
 }
-
-/*Places the hamburger icon on the right end and style it*/
-#menu-container {
-    text-align: end;
-    color: #CEC1E0;
+#menu-container{
+    display: flex;
+    float: left;
+    flex-grow: 1;
+    justify-content: flex-end;
 }
 
-/*Styles the header separator*/
-header #separator {
-    background-color: #CEC1E0;
+/*makes the logo image fit into the logo-container*/
+header img {
     width: 100%;
-    height: 1rem;
-    align-self: baseline;
 }
 
-/*Rmoves standard styles from the menu items*/
-header a {
+
+
+/*removes the standard link style*/
+header a{
     text-decoration: none;
 }
 
-/*Navbar styles with dropdown toggle (hamburger menu)*/
+/*removes the bullets from the list*/
+#menu {
+    list-style: none;
+}
+
+#menu>li {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+/*Navbar styles with dropdown toggle (hamburger meu)*/
 nav {
+    /* takes away from the normal flow and position nea to the ancestor=header and over the next=main content*/
     position: absolute;
     background-color: white;
     width: 100%;
     left: 0;
+    padding: 0 1rem;
     display: none;
-    color: black;
-    /*starts at the end of the parent element (header)*/
+    /*top of the element (nav) starts at the bottom of the parent (header) - needed for the dropdown*/
     top: 100%;
-
 }
 
-nav li {
-    /*styles for the navbar elements*/
-    border-bottom: 1px solid #e8e8e8;
-    padding: 0.5rem;
-    width: 100%;
-}
-
-/*active position class styles*/
-.active {
-    background-color: #CEC1E0;
-}
-
+/*Nav toggle = pseudoclass of checkboxes (checked) and apply to the sibling elements (nav) */
 #nav-toggle:checked~nav {
     display: block;
-    text-align: left;
 }
 
-.nav-toggle-label {
-    font-size: 1.5rem;
-    text-align: end;
-}
-
-/*eliminates the checkbox from the hamburger-menu icon*/
 #nav-toggle {
     display: none;
 }
+
+
+
+
+
+
 
 /*Main content styles*/
 main {
@@ -305,46 +295,25 @@ footer p {
 }
 
 /*responsive layout*/
-/*tablets 768px and up*/
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Header */
-    /*blocks the amount of space for the logo*/
-
-    /*expands the menu container on the page*/
-    #menu-container {
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-    }
-
-    /*shows the menu on a row, on top*/
     nav {
-        display: flex;
+        display: block;
+        position: relative;
+        box-shadow: none;
         width: fit-content;
-        top: 0;
-        left: 33%;
-        align-self: flex-end;
+        padding-right: 1rem;
     }
 
     #menu {
         display: flex;
-        list-style: none;
     }
 
-    /*brings the divider on the bottom*/
-    #separator {
-        position: absolute;
-        left: 200px;
-        top: 42px;
+    #menu > li {
+        padding-left: 1rem;
     }
 
-    /*hides the drop-down toggle*/
     .nav-toggle-label {
         display: none;
-
     }
-}
-
-
-    /*laptops 1024px and up*/

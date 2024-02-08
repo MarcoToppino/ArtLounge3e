@@ -21,25 +21,23 @@
     <header>
         <!--divide the header in two halves/divs, one for the logo, the other for the menu-->
         <!--Logo Image and link to index.html-->
-            <div id="logo-container">
-                <a href="index.html"><img src="assets/images/ArtLoung3E_Logo.png" alt="Art Lounge 3e logo"></a>
-            </div>
+        <div id="logo-container">
+            <a href="index.html"><img src="assets/images/ArtLoung3E_Logo.png" alt="Art Lounge 3e logo"></a>
+        </div>
         <!--Navigation Menu-->
         <div id="menu-container">
+            <!--Toggle for dragd-drop menu using only CSS (no javascript)-->
+            <input type="checkbox" id="nav-toggle" name="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
             <nav>
                 <ul id="menu">
-                    <li  class="active"><a href="index.html">Home</a></li>
-                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li> <a href="schedule.html">Schedule</a></li>
                     <li><a href="experiences.html">Experiences</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <!--Toggle for dragd-drop menu using only CSS (no javascript)-->
-            <input type="checkbox" id="nav-toggle" name="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         </div>
-        <!--Separator under the menu container-->
-        <div id="separator"> </div>
     </header>
     <main>
         <section id="carousel-section">
@@ -57,11 +55,12 @@
             <h2 class="uppercase left">we welcome you to join our art experiences</h2>
             <p class="uppercase">Art Lounge 3e is a space for people to come and explore art, express themselves, and
                 engage with their community.</p>
-            <p>I love ART. Through techniques and  various styles of the great masters, art presents endless possibilities.</p>
+            <p>I love ART. Through techniques and various styles of the great masters, art presents endless
+                possibilities.</p>
             <p>No art skills are required, just open mindedness and great sense of humour.</p>
             <p>All materials are provided along with beverages</p>
             <!--Button for direct link to schedule-->
-            <a href="schedule.html"><button type="button" class="button-schedule">SCHEDULE</button></a> 
+            <a href="schedule.html"><button type="button" class="button-schedule">SCHEDULE</button></a>
         </section>
         <section id="experiences">
             <h2 class="center">Art Experiences</h2>
@@ -84,7 +83,8 @@
                 <p>Developing art skills</p>
                 <p>Having a deeper exploration and wider understanding of particular topics styles and mediums</p>
                 <!--Button for direct link to experiences/workshops-->
-                <a href="experiences.html"><button type="button" class="button-about-experiences">about courses</button></a>
+                <a href="experiences.html"><button type="button" class="button-about-experiences">about
+                        courses</button></a>
 
             </div>
             <div id="events">
@@ -95,7 +95,8 @@
                 <p>sharing fun time</p>
                 <p>Promoting thinking outside the box, collaborating in different ways or highlighting diversity.</p>
                 <!--Button for direct link to experiences/workshops-->
-                <a href="experiences.html"><button type="button" class="button-about-experiences">about corporate</button></a>
+                <a href="experiences.html"><button type="button" class="button-about-experiences">about
+                        corporate</button></a>
 
             </div>
         </section>
@@ -146,7 +147,7 @@
             <p>info@artlounge.se</p>
             <p>At Målamik, Skolgatan 3</p>
             <p>Atelié Råbygård, Stora Råby Byväg 28</p>
-            <p>Lund - Sweden</p>      
+            <p>Lund - Sweden</p>
         </div>
         <div id="Social-networks-container">
             <ul id="social-networks">
