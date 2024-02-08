@@ -10,9 +10,9 @@
 
 /*General styles*/
 body {
-    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -48,6 +48,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 100;
+    padding: 0 0.5rem;
 }
 
 
@@ -115,17 +116,20 @@ nav {
 
 /*Main content styles*/
 main {
-    margin-top: 3rem;
+    margin-top: 4rem;
     display: flex;
-    flex-direction: column;
-    /*takes all the available space of the page*/
+    flex-wrap: wrap;
+    justify-content: center;
+    /*takes all the available vertical space of the page*/
     flex: 1 0 auto;
+    width: 100vw;
 }
 
 #carousel-image {
-    width: fit-content;
+    height: 90vw;
     border-radius: 10%;
-    margin: 0.5rem;
+    /*max dimension for bigger screens*/
+    max-height: 320px;
 }
 
 #carousel-buttons {
@@ -195,7 +199,7 @@ main {
     padding: 1rem;
 }
 
-section img {
+#experiences img {
     height: 50vw;
     margin-top: 0.5rem;
 }
