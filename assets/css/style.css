@@ -129,13 +129,15 @@ main {
     flex-wrap: wrap;
     justify-content: center;
 }
-
+#carousel-section{
+    display: flex;
+    justify-content: center;
+}
 
 #carousel-image {
-    height: 90vw;
+    width: 80%;
+    height: auto;
     border-radius: 10%;
-    /*max dimension for bigger screens*/
-    max-height: 320px;
 }
 
 #carousel-buttons {
@@ -206,7 +208,8 @@ main {
 }
 
 #experiences img {
-    height: 50vw;
+    width: 80%;
+    border-radius: 5px;
     margin-top: 0.5rem;
 }
 
@@ -332,7 +335,23 @@ footer p {
         flex-wrap: nowrap;
     }
     #welcome-section{
-        max-width: 320px;
+    flex: 50%;    }
+    #carousel-section{
+        flex: 50%;
     }
+    #carousel-image{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+
+    /*Experiences, all on the same row*/
+    #experiences-container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #experiences div {
+        flex: 30%;    }
+    
 
 }
