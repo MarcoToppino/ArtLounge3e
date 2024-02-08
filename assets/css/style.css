@@ -123,11 +123,7 @@ main {
 }
 
 #carousel-image {
-    height: 100vw;
-    background-image: url(../images/Carousel_Image_1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: fit-content;
     border-radius: 10%;
     margin: 0.5rem;
 }
@@ -299,7 +295,7 @@ footer p {
 /*responsive layout*/
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Header */
+/* Header */
     nav {
         display: block;
         position: relative;
@@ -319,4 +315,8 @@ footer p {
     .nav-toggle-label {
         display: none;
     }
+/*Main content in multiple columns (2 or 3) depending on the section*/
+    /*carousel and welcome side-by side*/
+
+
 }
