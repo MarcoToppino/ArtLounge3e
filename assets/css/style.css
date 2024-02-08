@@ -105,8 +105,10 @@ nav {
     display: none;
 }
 
-
-
+/*active class for navigation menu*/
+.active {
+    background-color: #CEC1E0;
+}
 
 
 
@@ -317,3 +319,4 @@ footer p {
     .nav-toggle-label {
         display: none;
     }
+}
