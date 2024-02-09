@@ -247,42 +247,41 @@ main {
 #contact-message {
     display: flex;
     flex-direction: column;
-    margin-left: 1rem;
+    padding: 1rem;
 }
 
 #contact-message h2 {
     border-color: #CEC1E0;
+    margin-left: 1rem;
 }
 
 #contact-message p {
-    width: 80vw;
-    padding-top: 2rem;
-    padding-left: 1rem;
+    padding: 1rem;
 }
 
 /*email & phone*/
 #email-phone {
     display: block;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem;
 }
 
 /*form*/
-form {
-    padding-left: 2rem;
-    width: 80vw;
+#form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.text-input    {
+    width: 100%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 2px;
 }
 
-#name,
-#email,
-#subject,
 #message {
-    padding: 0.5rem 1rem;
-    border: 1px solid black;
-    max-width: 200px;
-    margin-top: 0, 5rem;
+    width: 100%;
 }
+
 
 form button {
     padding: 0.5rem 1rem;
@@ -394,6 +393,14 @@ footer p {
     #testimonials-text{
         flex: 50%;
     }
+
+/*contact page has a maximum width and maintains the proportions*/
+#contact-message{
+    max-width: 50%;
+}
+#contact-form {
+    max-width: 400px;
+}
 
 
 }
