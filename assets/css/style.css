@@ -219,18 +219,23 @@ main {
 }
 
 /*styles for testimonials section*/
-#testimonials div {
+#testimonials {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-
+    flex-direction: column;
 }
 
-#testimonials p {
+#testimonials p, #testimonials i {
     padding: 0.5rem;
 }
+#testimonials div {
+    display: flex;
+    flex-direction: column;
+}
 
+
+#testimonials img {
+    align-self: center;
+}
 
 
 #testimonials img {
