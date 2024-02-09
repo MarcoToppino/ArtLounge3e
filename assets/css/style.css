@@ -227,14 +227,13 @@ main {
 #testimonials p, #testimonials i {
     padding: 0.5rem;
 }
-#testimonials div {
+#testimonials-element{
     display: flex;
     flex-direction: column;
 }
 
-
 #testimonials img {
-    align-self: center;
+    max max-width: 600px;
 }
 
 
@@ -374,11 +373,27 @@ footer p {
         flex-wrap: nowrap;
     }
     #experiences div {
-        flex: 30%;    }
-    /*Testimonials on two colums (text and image)*/
+        flex: 33.3%;    }
+
+        /*Testimonials on two colums (text and image)*/
     #testimonials {
+        display: flex;
+        flex-direction: column;
+    }    
+    
+    #testimonials-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #testimonials-element{
         display: flex;
         flex-wrap: nowrap;
     }
+    
+    #testimonials-text{
+        flex: 50%;
+    }
+
 
 }
