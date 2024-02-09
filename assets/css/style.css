@@ -131,7 +131,10 @@ main {
 }
 #carousel-section{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 #carousel-image {
@@ -367,6 +370,10 @@ footer p {
     }
     #experiences div {
         flex: 30%;    }
-    
+    /*Testimonials on two colums (text and image)*/
+    #testimonials {
+        display: flex;
+        flex-wrap: nowrap;
+    }
 
 }
