@@ -219,7 +219,6 @@ main {
 /*styles for testimonials section*/
 #testimonials div {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
 
 }
