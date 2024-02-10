@@ -227,17 +227,16 @@ main {
 #testimonials p, #testimonials i {
     padding: 0.5rem;
 }
-#testimonials-element{
+
+.testimonials-image {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 #testimonials img {
     max-width: 600px;
-}
-
-
-#testimonials img {
     width: 80%;
     padding: 0.5rem;
 }
