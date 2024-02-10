@@ -377,19 +377,14 @@ footer p {
     #testimonials {
         display: flex;
         flex-direction: column;
-    }    
-    
-    #testimonials-container{
-        display: flex;
-        flex-direction: column;
     }
 
-    #testimonials-element{
+    .testimonials-element{
         display: flex;
-        flex-wrap: nowrap;
+        flex-direction: row;
     }
     
-    #testimonials-text{
+    .testimonials-text{
         flex: 50%;
     }
 
