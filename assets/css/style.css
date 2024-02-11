@@ -291,6 +291,34 @@ form button {
     margin: 0.5rem;
 }
 
+/*styles for the schedule page*/
+
+#schedule-message-section {
+    width: 80vw;
+}
+
+#schedule-picture img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*styles for footer*/
 footer {
     display: flex;
