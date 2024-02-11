@@ -46,9 +46,8 @@ header {
     /*keep it fixed on top and always visible*/
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 100;
-    padding: 0.5rem;
 }
 
 
@@ -178,6 +177,7 @@ main {
     text-align: center;
     margin: 0.5rem;
     padding: 1rem;
+    align-items: center;
 }
 #workshops {
     background-color: #b5d6a6;
@@ -195,6 +195,7 @@ main {
     align-self: center;
     width: 80%;
     border-radius: 10%;
+    margin-top: 0.5rem;
 }
 
 #experiences p {
@@ -217,6 +218,12 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+.testimonials-element{
+    margin-top: 0.5rem;
+}
+
+
 
 #testimonials p, #testimonials i {
     padding: 0.5rem;
@@ -286,17 +293,20 @@ form button {
 }
 
 /*styles for the schedule page*/
-
-#schedule-message-section {
-    width: 80vw;
-}
+/*picture & message with partners*/
+#schedule-message-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
 
 #schedule-picture img {
     width: 100%;
     border-radius: 10%;
+    padding:0.5rem
 }
 
-
+/*schedule elements*/
 
 
 
