@@ -136,7 +136,7 @@ main {
 
 #carousel-section img {
     width: 100%;
-    border-radius: 10%;
+    border-radius: 35px;
 }
 
 #carousel-buttons {
@@ -173,7 +173,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border-radius: 5px;
+    border-radius: 15px;
     text-align: center;
     margin: 0.5rem;
     padding: 1rem;
@@ -194,7 +194,7 @@ main {
 #experiences img {
     align-self: center;
     width: 80%;
-    border-radius: 10%;
+    border-radius: 15px;
     margin-top: 0.5rem;
 }
 
@@ -309,7 +309,7 @@ form button {
 
 #schedule-picture img {
     width: 100%;
-    border-radius: 10%;
+    border-radius: 35px;
 }
 
 #schedule-message{
@@ -329,12 +329,24 @@ form button {
 }
 
 /*schedule elements*/
+.schedule-element{
+    display: flex;
+    flex-direction: column;
+    border: #F0CB83 3px solid;
+    border-radius: 35px;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 1rem;
+    align-items: center;
+}
 
+.schedule-section p {
+padding: 1rem;
+}
 
-
-
-
-
+.schedule-section h5 {
+padding: 1rem;
+}
 
 
 
