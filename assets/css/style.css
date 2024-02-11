@@ -142,80 +142,75 @@ main {
 
 #carousel-buttons {
     height: 3rem;
-    padding: 0,5rem 0;
+    padding: 0.5rem 0;
 }
 
 /*styles for the welcome section*/
 #welcome-section {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    padding: 0 1rem;
+    padding: 0.5rem;
     align-items: center;
 }
 
 #welcome-section p {
     text-align: left;
     padding: 0.5rem;
-    width: 100%;
 }
 
-#welcome-section h2 {
-    width: 100%;
-}
-
-#welcome-section button {
+.button-schedule {
     padding: 0.5rem 1rem;
     background-color: white;
     border-radius: 25px;
     border: 4px solid #F0CB83;
     text-transform: uppercase;
     margin: 0.5rem;
+    text-decoration: none;
 }
 
 
 /*styles for the experiences section and divs*/
+.experiences{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+#workshops {
+    background-color: #b5d6a6;
+}
+
+#courses {
+    background-color: #c39afc;
+}
+
+#events {
+    background-color: #F0CB83;
+}
+
+#experiences img {
+    align-self: center;
+    width: 80%;
+    border-radius: 10%;
+}
+
 #experiences p {
     padding: 0.5rem;
 }
 
-#experiences button {
+.experiences-button {
     padding: 0.5rem 1rem;
     background-color: white;
     border-radius: 25px;
     border: 4px solid #e8e8e8;
     text-transform: uppercase;
     padding: 0.5rem;
+    text-decoration: none;
 }
 
-#workshops {
-    background-color: #b5d6a6;
-    border-radius: 5px;
-    text-align: center;
-    margin: 0.5rem;
-    padding: 1rem;
-}
-
-#courses {
-    background-color: #c39afc;
-    border-radius: 5px;
-    text-align: center;
-    margin: 0.5rem;
-    padding: 1rem;
-}
-
-#events {
-    background-color: #F0CB83;
-    border-radius: 5px;
-    text-align: center;
-    margin: 0.5rem;
-    padding: 1rem;
-}
-
-#experiences img {
-    width: 80%;
-    border-radius: 5px;
-}
 
 /*styles for testimonials section*/
 #testimonials {
