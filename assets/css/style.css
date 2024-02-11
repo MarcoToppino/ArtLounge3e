@@ -300,10 +300,32 @@ form button {
     justify-content: center;
 } 
 
+#schedule-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+}
+
 #schedule-picture img {
     width: 100%;
     border-radius: 10%;
-    padding:0.5rem
+}
+
+#schedule-message{
+    padding: 0.5rem;
+}
+
+#schedule-message-text p{
+    padding: 0.5rem;
+}
+
+#schedule-message-partners{
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    justify-content: space-around;
+    margin-bottom: 1rem;
 }
 
 /*schedule elements*/
