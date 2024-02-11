@@ -340,6 +340,12 @@ form button {
     align-items: center;
 }
 
+.schedule-element-image img {
+    width: 80%;
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+
 .schedule-section p {
 padding: 1rem;
 }
@@ -348,7 +354,9 @@ padding: 1rem;
 padding: 1rem;
 }
 
-
+.schedule-section h2 {
+    padding: 1rem;
+}
 
 
 
