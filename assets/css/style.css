@@ -462,6 +462,34 @@ footer p {
         flex: 50%;
     }
 
+/*schedule page*/
+/*welcome image and text in 2 colums*/
+#schedule-picture-message {
+    display: flex;
+    flex-direction: row;
+}
+/*schedule element image and text on two columns, image 200px*/
+.schedule-element {
+    display: flex;
+    flex-direction: row;
+}
+
+.schedule-element-text {
+    display: flex;
+    flex-direction: column;
+    flex: 75%;
+    text-align: left;}
+
+
+.schedule-element img {
+    max-width: 200px;
+}
+
+.button-schedule {
+    align-self: flex-start;
+}
+
+
 /*contact page has a maximum width and maintains the proportions*/
 #contact-message{
     max-width: 50%;
