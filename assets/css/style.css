@@ -498,5 +498,20 @@ footer p {
     max-width: 400px;
 }
 
+/*footer*/
+/*places the social media links on the right side, on a column*/
+#contacts-social-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#social-networks-container{
+    display: flex;
+}
+#social-networks {
+    flex-direction: column;
+    padding: 0;
+    line-height: 200%;
+}
 
 }
