@@ -1,110 +1,104 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+ArtLounge3e
 
-Welcome Marco Toppino,
+This webside is dedicated to promote Art Lounge 3e.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Business goals are to:
+- Attract new clients
+- Sign-up for sessions
+- Show a varied range of personalizable opportunities
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Art Lounge 3e offers individuals an opportunity to seamlessly integrate newfound knowledge with their personal experiences. 
+It is about bringing together a community who is curious to try new artistic endeavours. The art pieces created become personal expressions that can adorn your living space or serve as special gifts.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Responsive Mockup](<responsive layout sample.png>)
 
-`python3 -m http.server`
+Features
+Existing Features
+Company Logo and Navigation Bar
 
-A blue button should appear to click: _Make Public_,
+Featured on all pages, the full responsive navigation bar includes links to the Logo, Home page, Schedule Experiences and Contact page and it is identical in each page to allow for easy navigation.
+When visualised, it shows also the location of the page in the structure/active page, for easy navigation. The logo link brings always to the landing page
 
-Another blue button should appear to click: _Open Browser_.
+![Mobile Menu - Open](<Mobile Menu - Open.png>)
+![Tablet Menu](<Tablet Menu - Open.png>)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Landing Page
 
-A blue button should appear to click: _Make Public_,
+The page include a picture of an actual Art session, an inspirational welcome text, some basic information and a direct link to the Events Schedule
+![Welcome Picture and Text](<Welcome Section.png>)
 
-Another blue button should appear to click: _Open Browser_.
+Furthe down there is a section dedicated to the three different types of Art Experiences Offered. Each type has a coded colour wich will be maintained in the relevant pages.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Art Experiences types](<art experiences.png>)
 
-To log into the Heroku toolbelt CLI:
+Further down a selection of Client Testimonials, to immediately show the good feedback from the experiences- The section acts also as a small gallery
+![Testimonials element gallery](Testimonials.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The Footer
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The footer section includes standard contact elements (mail, addresses) and links to the relevant social media sites for the company Art Lounge 3e or for the Company founder (Ghada Andersson)
+All links open in a new page.
 
-------
+THe Schedule Page
 
-## Release History
+The Experiences Page
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The Contact Page
+![Contact Form](<Contact Form.png>)
+This page allows the user to write a message directly to the company e-mail address. Full name, e-mail address, subject and message text are mandatory
 
-**September 20 2023:** Update Python version to 3.9.17.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Features Left to Implement
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+-On the landing page, the main image should be converted in a carousel of images, with command buttons and possibly automatic rotation of the images
+-The plain white background shoud be changed with something that resemples painting objects (brushes, colour tubes, etc....) embossed in a canvas.
+-Under the main menu a separator is missing (while it is present over the footer) and should be covered by an irregular vertical stripes pattern.
+-Schedule elements could appear (animation) from the bottom of the page to reach their final position
+-A fully responsive image gallery
+-An "About" page for the Company and the Owner
+-A "Legal terms" page
+-Direct link from the schedule events to a contact+bookig+payment page
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Testing
+Testing has been conducted checking all the links and assessing visibility on all screen resolutions (Crome dev tools)
+Form controls were tested by manually including different combinations of text and e-mail.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Only on very large screens (4K) there is probably need of further testing for elements positioning/alignment
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Validator Testing
+HTML
+No errors were returned when passing through the official W3C validator
+CSS
+No errors were found when passing through the official (Jigsaw) validator
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Lighthouse Report
+Lighthouse Report (Chrome Dev Tools) was used to asse the overall performance of the site.
+No issues in Accessibility, Best Practices and SearchEngineOptimization.
+Further optimization needed to improve the Performance score. 
+![Lighthouse Report](<lighthouse report.png>)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Unfixed Bugs
+No unfixed bugs
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://marcotoppino.github.io/ArtLounge3e/contact.html
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Credits
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Content
+The text for the different pages was developed together with the Art Lounge 3e owner
+The icons in the footer were taken from Font Awesome
+The responsive navbar structure and code (using CSS, no Java) was adapted from the CodeInstutute LoveRunning Project.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Media
+All pictures are courtesy of Art Lounge 3e
 
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Fonts, sizes and colours are courtesy of Art Lounge 3e Brand Identity
