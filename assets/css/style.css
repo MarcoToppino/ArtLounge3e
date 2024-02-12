@@ -15,7 +15,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -23,7 +22,6 @@ body {
 .hidden {
     display: none;
 }
-
 
 /*left border with colour, for section headings*/
 .left {
@@ -34,7 +32,6 @@ body {
 .center {
     text-align: center;
 }
-
 
 /*header styles*/
 header {
@@ -50,11 +47,11 @@ header {
     z-index: 100;
 }
 
-
 /*makes the logo container max 50% of the screen on small screens, while menu-container takes all the remaining space*/
 #logo-container {
     max-width: 160px;
 }
+
 #menu-container{
     display: flex;
     justify-content: flex-end;
@@ -64,7 +61,6 @@ header {
 header img {
     width: 100%;
 }
-
 
 /*removes the standard link style*/
 header a{
@@ -107,9 +103,6 @@ nav {
     background-color: #CEC1E0;
 }
 
-
-
-
 /*Main content styles*/
 main {
     margin-top: 4rem;
@@ -120,12 +113,14 @@ main {
     /*takes all the available vertical space of the page*/
     flex: 1 0 auto;
 }
+
 #carousel-welcome-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
 }
+
 #carousel-section{
     display: flex;
     flex-direction: column;
@@ -167,7 +162,6 @@ main {
     text-decoration: none;
 }
 
-
 /*styles for the experiences section and divs*/
 .experiences{
     display: flex;
@@ -179,6 +173,7 @@ main {
     padding: 1rem;
     align-items: center;
 }
+
 #workshops {
     background-color: #b5d6a6;
 }
@@ -212,7 +207,6 @@ main {
     text-decoration: none;
 }
 
-
 /*styles for testimonials section*/
 #testimonials {
     display: flex;
@@ -222,8 +216,6 @@ main {
 .testimonials-element{
     margin-top: 0.5rem;
 }
-
-
 
 #testimonials p, #testimonials i {
     padding: 0.5rem;
@@ -271,7 +263,8 @@ main {
     flex-direction: column;
     padding: 2rem;
 }
-.text-input    {
+
+.text-input {
     width: 100%;
     height: 25px;
     border: 1px solid black;
@@ -281,7 +274,6 @@ main {
 #message {
     width: 100%;
 }
-
 
 form button {
     padding: 0.5rem 1rem;
@@ -358,13 +350,6 @@ padding: 1rem;
     padding: 1rem;
 }
 
-
-
-
-
-
-
-
 /*styles for footer*/
 footer {
     display: flex;
@@ -383,7 +368,6 @@ footer p {
     height: 1rem;
     align-self: flex-start;
 }
-
 
 #social-networks {
     text-align: center;
@@ -428,32 +412,37 @@ footer p {
         background-color: white;
     }
 
-/*Main content in multiple columns (2 or 3) depending on the section*/
+    /*Main content in multiple columns (2 or 3) depending on the section*/
     /*carousel and welcome side-by side*/
     #carousel-welcome-container {
         display: flex;
         flex-wrap: nowrap;
     }
+    
     #welcome-section{
-    flex: 50%;    }
+    flex: 50%;
+    }
+    
     #carousel-section{
         flex: 50%;
     }
+    
     #carousel-image{
         max-width: 700px;
         max-height: 700px;
     }
-
 
     /*Experiences, all on the same row*/
     #experiences-container {
         display: flex;
         flex-wrap: nowrap;
     }
-    #experiences div {
-        flex: 33.3%;    }
 
-        /*Testimonials on two colums (text and image)*/
+    #experiences div {
+        flex: 33.3%;
+    }
+
+    /*Testimonials on two colums (text and image)*/
     #testimonials {
         display: flex;
         flex-direction: column;
@@ -468,56 +457,58 @@ footer p {
         flex: 50%;
     }
 
-/*schedule page*/
-/*welcome image and text in 2 colums*/
-#schedule-picture-message {
-    display: flex;
-    flex-direction: row;
-}
-/*schedule element image and text on two columns, image 200px*/
-.schedule-element {
-    display: flex;
-    flex-direction: row;
-}
+    /*schedule page*/
+    /*welcome image and text in 2 colums*/
+    #schedule-picture-message {
+        display: flex;
+        flex-direction: row;
+    }
+    /*schedule element image and text on two columns, image 200px*/
+    .schedule-element {
+        display: flex;
+        flex-direction: row;
+    }
 
-.schedule-element-text {
-    display: flex;
-    flex-direction: column;
-    flex: 75%;
-    text-align: left;}
+    .schedule-element-text {
+        display: flex;
+        flex-direction: column;
+        flex: 75%;
+        text-align: left;
+    }
 
+    .schedule-element img {
+        max-width: 200px;
+    }
 
-.schedule-element img {
-    max-width: 200px;
-}
+    .button-schedule {
+        align-self: flex-start;
+    }
 
-.button-schedule {
-    align-self: flex-start;
-}
+    /*contact page has a maximum width and maintains the proportions*/
+    #contact-message{
+        max-width: 50%;
+    }
 
+    #contact-form {
+        max-width: 400px;
+    }
 
-/*contact page has a maximum width and maintains the proportions*/
-#contact-message{
-    max-width: 50%;
-}
-#contact-form {
-    max-width: 400px;
-}
+    /*footer*/
+    /*places the social media links on the right side, on a column*/
+    #contacts-social-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 
-/*footer*/
-/*places the social media links on the right side, on a column*/
-#contacts-social-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-#social-networks-container{
-    display: flex;
-}
-#social-networks {
-    flex-direction: column;
-    padding: 0;
-    line-height: 200%;
-}
+    #social-networks-container{
+        display: flex;
+    }
+
+    #social-networks {
+        flex-direction: column;
+        padding: 0;
+        line-height: 200%;
+    }
 
 }
