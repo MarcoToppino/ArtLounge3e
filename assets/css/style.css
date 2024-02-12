@@ -420,7 +420,10 @@ footer p {
     }
     
     #welcome-section{
-    flex: 50%;
+        display: flex;
+        flex-direction: column;
+        flex: 50%;
+        align-items: flex-start;    
     }
     
     #carousel-section{
