@@ -353,6 +353,7 @@ padding: 1rem;
 /*Styles for the experiences page*/
 /*similar to the schedule page*/
 /*welcome image and text in two colums, button under the image*/
+/*workshops*/
 #experiences-workshops-welcome-section{
     display: flex;
     flex-wrap: wrap;
@@ -372,7 +373,6 @@ padding: 1rem;
 }
 
 
-
 #experiences-workshops-welcome-text{
     padding: 0.5rem;
 }
@@ -380,8 +380,34 @@ padding: 1rem;
 #experiences-workshops-welcome-text p{
     padding: 0.5rem;
 }
+/*courses*/
 
 
+#experiences-courses-welcome-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+#experiences-courses-welcome-image-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+#experiences-courses-welcome-image-button-container img {
+    width: 100%;
+    border-radius: 35px;
+}
+
+#experiences-courses-welcome-text{
+    padding: 0.5rem;
+}
+
+#experiences-courses-welcome-text p{
+    padding: 0.5rem;
+}
 /*Experiences elements*/
 .experiences-element{
     display: flex;
@@ -414,7 +440,9 @@ text-align: left;
     border-color: #b5d6a6;
 }
 
-
+.courses-border {
+    border-color: #F0CB83;
+}
 
 /*styles for footer*/
 footer {
