@@ -371,9 +371,7 @@ padding: 1rem;
     border-radius: 35px;
 }
 
-.workshops-border {
-    border-color: #b5d6a6;
-}
+
 
 #experiences-workshops-welcome-text{
     padding: 0.5rem;
@@ -384,7 +382,37 @@ padding: 1rem;
 }
 
 
-/*Experiences elements"
+/*Experiences elements*/
+.experiences-element{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    border-radius: 35px;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+.experiences-elements-section img {
+    width: 80%;
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+
+.experiences-elements-section p {
+padding: 0.5rem;
+text-align: left;
+}
+
+.experiences-elements-section h2 {
+    padding: 1rem;
+}
+
+
+.workshops-border {
+    border-color: #b5d6a6;
+}
 
 
 
@@ -531,10 +559,17 @@ footer p {
         flex-wrap: nowrap;
     }
     
-    .button-schedule {
+    #experiences-workshops-welcome-section a {
         align-self: flex-end;
     }
-
+    /*experience elements on two columns*/
+    .experiences-element {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+ 
+ 
     /*contact page has a maximum width and maintains the proportions*/
     #contact-message{
         max-width: 50%;
