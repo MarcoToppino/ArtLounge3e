@@ -380,9 +380,8 @@ padding: 1rem;
 #experiences-workshops-welcome-text p{
     padding: 0.5rem;
 }
+
 /*courses*/
-
-
 #experiences-courses-welcome-section{
     display: flex;
     flex-wrap: wrap;
@@ -408,6 +407,7 @@ padding: 1rem;
 #experiences-courses-welcome-text p{
     padding: 0.5rem;
 }
+
 /*Experiences elements*/
 .experiences-element{
     display: flex;
