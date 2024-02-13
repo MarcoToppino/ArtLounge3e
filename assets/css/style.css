@@ -350,6 +350,44 @@ padding: 1rem;
     padding: 1rem;
 }
 
+/*Styles for the experiences page*/
+/*similar to the schedule page*/
+/*welcome image and text in two colums, button under the image*/
+#experiences-workshops-welcome-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+#experiences-workshops-welcome-image-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+#experiences-workshops-welcome-image-button-container img {
+    width: 100%;
+    border-radius: 35px;
+}
+
+.workshops-border {
+    border-color: #b5d6a6;
+}
+
+#experiences-workshops-welcome-text{
+    padding: 0.5rem;
+}
+
+#experiences-workshops-welcome-text p{
+    padding: 0.5rem;
+}
+
+
+/*Experiences elements"
+
+
+
 /*styles for footer*/
 footer {
     display: flex;
