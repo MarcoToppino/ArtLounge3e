@@ -525,6 +525,16 @@ footer p {
         align-self: flex-start;
     }
 
+/*experiences page*/
+    /*welcome image and text in 2 colums*/
+    #experiences-workshops-welcome-section {
+        flex-wrap: nowrap;
+    }
+    
+    .button-schedule {
+        align-self: flex-end;
+    }
+
     /*contact page has a maximum width and maintains the proportions*/
     #contact-message{
         max-width: 50%;
