@@ -583,6 +583,7 @@ footer p {
 
 /*experiences page*/
     /*welcome image and text in 2 colums*/
+    /*workshops*/
     #experiences-workshops-welcome-section {
         flex-wrap: nowrap;
     }
@@ -590,6 +591,17 @@ footer p {
     #experiences-workshops-welcome-section a {
         align-self: flex-end;
     }
+
+    /*courses*/
+    #experiences-courses-welcome-section {
+        flex-wrap: nowrap;
+    }
+    
+    #experiences-courses-welcome-section a {
+        align-self: flex-end;
+    }
+
+
     /*experience elements on two columns*/
     .experiences-element {
         display: flex;
