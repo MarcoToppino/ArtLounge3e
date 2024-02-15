@@ -1,4 +1,7 @@
-ArtLounge3e
+# ArtLounge3e
+
+The live link can be found here - https://marcotoppino.github.io/ArtLounge3e/contact.html
+
 
 This webside is dedicated to promote Art Lounge 3e.
 
@@ -13,8 +16,8 @@ It is about bringing together a community who is curious to try new artistic end
 
 ![Responsive Mockup](<responsive layout sample.png>)
 
-Features
-Existing Features
+## Features
+### Existing Features
 Company Logo and Navigation Bar
 
 Featured on all pages, the full responsive navigation bar includes links to the Logo, Home page, Schedule Experiences and Contact page and it is identical in each page to allow for easy navigation.
@@ -29,10 +32,12 @@ The page include a picture of an actual Art session, an inspirational welcome te
 ![Welcome Picture and Text](<Welcome Section.png>)
 
 Furthe down there is a section dedicated to the three different types of Art Experiences Offered. Each type has a coded colour wich will be maintained in the relevant pages.
+Links to direct sections of the experiences page are provided.
 
 ![Art Experiences types](<art experiences.png>)
 
-Further down a selection of Client Testimonials, to immediately show the good feedback from the experiences- The section acts also as a small gallery
+Further down a selection of Client Testimonials, to immediately show the good feedback from the experiences.
+ The section acts also as a small image gallery
 ![Testimonials element gallery](Testimonials.png)
 
 The Footer
@@ -40,25 +45,28 @@ The Footer
 The footer section includes standard contact elements (mail, addresses) and links to the relevant social media sites for the company Art Lounge 3e or for the Company founder (Ghada Andersson)
 All links open in a new page.
 
-THe Schedule Page
+The Schedule Page
 
 The Experiences Page
 
 The Contact Page
-![Contact Form](<Contact Form.png>)
+
 This page allows the user to write a message directly to the company e-mail address. Full name, e-mail address, subject and message text are mandatory
+
+
+![Contact Form](<Contact Form.png>)
 
 
 Features Left to Implement
 
--On the landing page, the main image should be converted in a carousel of images, with command buttons and possibly automatic rotation of the images
--The plain white background shoud be changed with something that resemples painting objects (brushes, colour tubes, etc....) embossed in a canvas.
--Under the main menu a separator is missing (while it is present over the footer) and should be covered by an irregular vertical stripes pattern.
--Schedule elements could appear (animation) from the bottom of the page to reach their final position
--A fully responsive image gallery
--An "About" page for the Company and the Owner
--A "Legal terms" page
--Direct link from the schedule events to a contact+bookig+payment page
+- On the landing page, the main image should be converted in a carousel of images, with command buttons and possibly automatic rotation of the images
+- The plain white background shoud be changed with something that resemples painting objects (brushes, colour tubes, etc....) embossed in a canvas.
+- Under the main menu a separator is missing (while it is present over the footer) and should be covered by an irregular vertical stripes pattern.
+- Schedule elements could appear (animation) from the bottom of the page to reach their final position
+- A fully responsive image gallery
+- An "About" page for the Company and the Owner
+- A "Legal terms" page
+- Direct link from the schedule events to a contact+bookig+payment page
 
 
 
