@@ -408,6 +408,33 @@ padding: 1rem;
     padding: 0.5rem;
 }
 
+/*corporate*/
+#experiences-corporate-welcome-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+#experiences-corporate-welcome-image-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+#experiences-corporate-welcome-image-button-container img {
+    width: 100%;
+    border-radius: 35px;
+}
+
+#experiences-corporate-welcome-text{
+    padding: 0.5rem;
+}
+
+#experiences-corporate-welcome-text p{
+    padding: 0.5rem;
+}
+
 /*Experiences elements*/
 .experiences-element{
     display: flex;
@@ -442,6 +469,10 @@ text-align: left;
 
 .courses-border {
     border-color: #c39afc;
+}
+
+.corporate-border {
+    border-color: #F0CB83;
 }
 
 /*styles for footer*/
@@ -601,6 +632,14 @@ footer p {
         align-self: flex-end;
     }
 
+    /*corporate*/
+    #experiences-corporate-welcome-section {
+        flex-wrap: nowrap;
+    }
+    
+    #experiences-corporate-welcome-section a {
+        align-self: flex-end;
+    }
 
     /*experience elements on two columns*/
     .experiences-element {
@@ -609,7 +648,7 @@ footer p {
         text-align: left;
     }
  
- 
+    /*contact page*/
     /*contact page has a maximum width and maintains the proportions*/
     #contact-message{
         max-width: 50%;
