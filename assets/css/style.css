@@ -450,7 +450,7 @@ padding: 1rem;
 .experiences-elements-section img {
     width: 80%;
     border-radius: 25px;
-    padding: 0.5rem;
+    padding: 0.5rem; 
 }
 
 .experiences-elements-section p {
@@ -646,6 +646,10 @@ footer p {
         display: flex;
         flex-direction: row;
         text-align: left;
+    }
+ 
+    .experiences-element img {
+        max-height: 25rem;
     }
  
     /*contact page*/
