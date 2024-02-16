@@ -34,7 +34,7 @@ Visit the deployed website [here](https://marcotoppino.github.io/ArtLounge3e/).
     5. [Manual Testing](#manual-testing)
 5. [Finished Product](#finished-product)
 6. [Deployment](#deployment)
-    1. [GitHub Pages](#github-pages)
+    - [GitHub Pages](#github-pages)
 7. [Credits](#credits)
     1. [Content](#content)
     2. [Media](#media)
