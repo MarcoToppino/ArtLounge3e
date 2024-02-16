@@ -1,113 +1,459 @@
-# ArtLounge3e
+# ArtLounge
 
-The live link can be found here - https://marcotoppino.github.io/ArtLounge3e/contact.html
+![Art Lounge 3e mockup images](assets/images/readme_images/responsive_layout_sample.png)
+
+Art Lounge 3e is an Art Studio located in Lund, Sweden. It provides a variety of Art Exeperiences to private and Corporate customers.
+
+The purpose of this website is to promote Art Lounge 3e providing information to potential customers about the renge of offers from the Art Studio, schedule of bookable events and contact options. The website targets an audience of new customers looking for the acivities being offered as well as returning customers looking to schedule a new event or find out about their new offerings.
+
+Visit the deployed website [here](https://marcotoppino.github.io/ArtLounge3e/).
+
+## Table of Contents
+
+1. [User Experience (UX)](#user-experience-ux)
+    1. [Project Goals](#project-goals)
+    2. [User Stories](#user-stories)
+    3. [Color Scheme](#color-scheme)
+    4. [Typography](#typography)
+    5. [Wireframes](#wireframes)
+2. [Features](#features)
+    1. [General](#general)
+    2. [Landing Page](#landing-page)
+    3. [Treatments Page](#treatments-page)
+    4. [Book Now Page](#book-now-page)
+    5. [404 Error Page](#404-error-page)
+ 3. [Technologies Used](#technologies-used)
+    1. [Languages Used](#languages-used)
+    2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+4. [Testing](#testing)
+    1. [Testing User Stories](#testing-user-stories)
+    2. [Code Validation](#code-validation)
+    3. [Accessibility](#accessibility)
+    4. [Tools Testing](#tools-testing)
+    5. [Manual Testing](#manual-testing)
+5. [Finished Product](#finished-product)
+6. [Deployment](#deployment)
+    1. [GitHub Pages](#github-pages)
+7. [Credits](#credits)
+    1. [Content](#content)
+    2. [Media](#media)
+    3. [Code](#code)
+8. [Acknowledgements](#acknowledgements)
+
+***
+
+## User Experience (UX)
+
+### Project Goals
+
+- The website should have a calming and relaxing design, appealing to the customers.
+
+- Present the range of Art Experiences offered and information about them in order to attract more customers.
+
+- Provide the customer with useful information that can facilitate future interaction with the business.
+
+- Offer the customers the opportunity to book an Art Experience or to register their interest.
+
+### User Stories
+
+- As a customer, I want to be able to navigate the website intuitively and learn more about the business and Art Experiences being offered.
+
+- As a customer, I want to be able to read more about the range of Art Experiences offered.
+
+- As a customer, I want to be able to browse the schedule of bookable Art Experiences.
+
+- As a customer, I want to be able to book an Art Experience directly from the website.
+
+- As a customer, I want to find social media links to the business.
+
+- As a customer, I want to easily find the contact information for the business.
 
 
-This webside is dedicated to promote Art Lounge 3e.
 
-Business goals are to:
-- Attract new clients
-- Sign-up for sessions
-- Show a varied range of personalizable opportunities
+### Color Scheme
+![Color scheme image](assets/images/readme_images/color_scheme_canva.png)
 
-Art Lounge 3e offers individuals an opportunity to seamlessly integrate newfound knowledge with their personal experiences. 
-It is about bringing together a community who is curious to try new artistic endeavours. The art pieces created become personal expressions that can adorn your living space or serve as special gifts.
+The colors used in the site are two different tones of Purple (#CEC1E0 and #C39AFC), a yellow color (#F0CB83) and green color (#B5D6A6). Tee light purple color is used for the structure elements of the website (Navigation Menu, links, separators), while the remaining three colors are connected with the three different range of Art Experiences offered (Workshops, Courses, Corporate). Purple has been chosen as it is broadly recognised as the "Art" colour, while yellow is connected with "Creativity".
 
+### Typography
 
-![Responsive Mockup](<responsive layout sample.png>)
+The main font used in the site is Poppins, with Sans Serif as the fallback font in case Poppins is not being imported correctly.
+
+### Wireframes
+
+[Balsamiq](https://balsamiq.com/) has been used to showcase the appearance of the site and display the placement of the different elements whitin the pages.
+
+Page | Desktop Version | Mobile Version
+--- | --- | ---
+Index | ![Desktop index wireframe image](assets/wireframes/desktop-index.png) | ![Mobile index wireframe image](assets/wireframes/mobile-index.png)
+Treatments | ![Desktop treatments wireframe image](assets/wireframes/desktop-treatments.png) | ![Mobile treatments wireframe image](assets/wireframes/mobile-treatments.png)
+Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-now.png) | ![Mobile book now wireframe image](assets/wireframes/mobile-book-now.png)
+
+[Back to top ⇧](#pura-vida-spa)
+
 
 ## Features
-### Existing Features
-Company Logo and Navigation Bar
 
-Featured on all pages, the full responsive navigation bar includes links to the Logo, Home page, Schedule Experiences and Contact page and it is identical in each page to allow for easy navigation.
-When visualised, it shows also the location of the page in the structure/active page, for easy navigation. The logo link brings always to the landing page
+### General
 
-![Mobile Menu - Open](<Mobile Menu - Open.png>)
-![Tablet Menu](<Tablet Menu - Open.png>)
+* Responsive design across all device sizes.
 
-Landing Page
+* Similar color scheme and design throughout all pages to effectively structure, categorise and present the information to the customers.
 
-The page include a picture of an actual Art session, an inspirational welcome text, some basic information and a direct link to the Events Schedule
-![Welcome Picture and Text](<Welcome Section.png>)
+* **Header**
+![Header image](assets/readme-files/header.png)
+    
+    - The header contains the business logo and fully responsive navigation bar positioned across the top of the screen.
 
-Furthe down there is a section dedicated to the three different types of Art Experiences Offered. Each type has a coded colour wich will be maintained in the relevant pages.
-Links to direct sections of the experiences page are provided.
+    - The business logo functions as a link to the landing page.
 
-![Art Experiences types](<art experiences.png>)
+    - The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It also has a hover effect that changes color to provide feedback to the customer for a better user experience.
 
-Further down a selection of Client Testimonials, to immediately show the good feedback from the experiences.
- The section acts also as a small image gallery
-![Testimonials element gallery](Testimonials.png)
+* **Footer**
+![Footer image](assets/readme-files/footer.png)
 
-The Footer
+    - The footer includes a smaller version of the logo and link to the business' social media channels.
 
-The footer section includes standard contact elements (mail, addresses) and links to the relevant social media sites for the company Art Lounge 3e or for the Company founder (Ghada Andersson)
-All links open in a new page.
+### Landing Page
 
-The Schedule Page
+* **Main Image**
+![Main image](assets/readme-files/main-image.png)
 
-The Experiences Page
+    - The main image is designed to attract the customer's attention and represents the nature surrounding the business.
 
-The Contact Page
+* **About Us Section**
+![About us section image](assets/readme-files/about-us.png)
 
-This page allows the user to write a message directly to the company e-mail address. Full name, e-mail address, subject and message text are mandatory
+    - Contains a text with information about the business as well as an eye-catching image.
 
+* **Contact Section**
+![Contact section image](assets/readme-files/contact.png)
 
-![Contact Form](<Contact Form.png>)
+    - Contains a text with useful geographical information as well as contact details such as the business' physical address, email and phone number.
 
+### Treatments Page
 
-Features Left to Implement
+* **Treatment Sections**
+![Treatment section image](assets/readme-files/treatment-section-example.png)
 
-- On the landing page, the main image should be converted in a carousel of images, with command buttons and possibly automatic rotation of the images
-- The plain white background shoud be changed with something that resemples painting objects (brushes, colour tubes, etc....) embossed in a canvas.
-- Under the main menu a separator is missing (while it is present over the footer) and should be covered by an irregular vertical stripes pattern.
-- Schedule elements could appear (animation) from the bottom of the page to reach their final position
-- A fully responsive image gallery
-- An "About" page for the Company and the Owner
-- A "Legal terms" page
-- Direct link from the schedule events to a contact+bookig+payment page
+    - The treatment section contains an image to illustrate the respective treatment and a short text with an explanation of the treatment.
 
+    - A link to the book now page has been added to each section for easy navigation.
 
+    - Each treatment section is fully responsive and easy to replicate in case more treatments need to be added by the business.
 
-Testing
-Testing has been conducted checking all the links and assessing visibility on all screen resolutions (Crome dev tools)
-Form controls were tested by manually including different combinations of text and e-mail.
+### Book Now Page
 
-Only on very large screens (4K) there is probably need of further testing for elements positioning/alignment
+* **Book Now Form**
+![Book now form image](assets/readme-files/book-now-form.png)
 
-Validator Testing
-HTML
-No errors were returned when passing through the official W3C validator
+    - The form allows the customer to book the desired treatment on a specific date directly from the business' website.
 
-CSS
-No errors were found when passing through the official (Jigsaw) validator
+* **Find Us Section**
+![Find us section image](assets/readme-files/find-us.png)
 
-Lighthouse Report
-Lighthouse Report (Chrome Dev Tools) was used to asse the overall performance of the site.
-No issues in Accessibility, Best Practices and SearchEngineOptimization.
-Further optimization needed to improve the Performance score. 
-![Lighthouse Report](<lighthouse report.png>)
+    - This section displays a Google map of the business' geographical location. This allows the customers to easily find the location from their devices.
+
+### 404 Error Page
+![404 error page image](assets/readme-files/404-error-page.png)
+
+*  This single page is being shown in case the customer enters an incorrect address into the address bar. It contains a link to the landing page.
+
+[Back to top ⇧](#pura-vida-spa)
 
 
-Unfixed Bugs
-No unfixed bugs
+## Technologies Used
 
-Deployment
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://marcotoppino.github.io/ArtLounge3e/contact.html
+### Languages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-Credits
+### Frameworks, Libraries and Programs Used
 
-Content
-The text for the different pages was developed together with the Art Lounge 3e owner
-The icons in the footer were taken from Font Awesome
-The responsive navbar structure and code (using CSS, no Java) was adapted from the CodeInstutute LoveRunning Project.
+* [Google Fonts](https://fonts.google.com/)
+    - Google Fonts was used to import the fonts Raleway, Cabin and Qahiri into the style.css file. These fonts were used throughout the site.
 
-Media
-All pictures are courtesy of Art Lounge 3e
+* [Font Awesome](https://fontawesome.com/)
+     - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
 
-Fonts, sizes and colours are courtesy of Art Lounge 3e Brand Identity
+* [TinyPNG](https://tinypng.com/)
+    - TinyPNG was used to reduce the file size of the images for the website.
+
+* [GitPod](https://gitpod.io/)
+     - GitPod was used for writing code, committing, and then pushing to GitHub.
+
+* [GitHub](https://github.com/)
+     - GitHub was used to store the project after pushing.
+
+* [Balsamiq](https://balsamiq.com/)
+     - Balsamiq was used to create the wireframes during the design phase of the project.
+
+* [Am I Responsive?](http://ami.responsivedesign.is/#)
+    - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+
+* [Responsive Design Checker](https://www.responsivedesignchecker.com/)
+    - Responsive Design Checker was used in the testing process to check responsiveness on various devices.
+
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    - Chrome DevTools was used during development process for code review and to test responsiveness.
+
+* [W3C Markup Validator](https://validator.w3.org/)
+    - W3C Markup Validator was used to validate the HTML code.
+
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - W3C CSS Validator was used to validate the CSS code.
+
+[Back to top ⇧](#pura-vida-spa)
+
+
+## Testing
+
+### Testing User Stories
+
+* As a customer, I want to be able to navigate the website intuitively and learn more about the business and treatments being offered.
+
+     - The website offers a intuitive structure for the customers to navigate and find the information they are looking for.
+
+    - The navigation bar is clearly presented in all pages for the customers to find with ease and it is easily navigable.
+
+
+* As a customer, I want to be able to read more about the treatments available.
+
+    - The treatments page presents all treatments available, each on their own section.
+
+    - Each treatment section contains useful information about the respective treatment.
+
+* As a customer, I want to easily find the contact information for the business.
+
+    - The landing page contains a clear contact section with all necessary business' contacts
+
+* As a customer, I want to find social media links to the business.
+
+    - The footer provides link to the business' social media channels.
+
+* As a customer, I want to be able to book a treatment directly from the website.
+
+    - The book now page provides a book now form for the customer to book and schedule their next treatment.
+
+* As a customer, I want to easily find the business' location.
+
+    - The book now page contains a find us section with a Google map of the business' geographical location.
+
+
+### Code Validation
+
+* The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate all pages of the project in order to ensure there were no syntax errors.
+
+    - W3C Markup Validator found an error concerning headings not being included on the main and book now images. The section tag was replaced for a div tag to correct this. 
+    
+    - Another error found by W3C Markup Validator was concerning a percentage value used inside the iframe tag to declare the width property on the Book Now page. The width and height properties for the iframe were declared inside the CSS file instead.
+
+    -  W3C CSS Validator found no errors or warnings on my CSS.
+
+### Accessibility
+
+* Used Lighthouse in Chrome DevTools to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
+
+* Lighthouse reports
+
+    - **Landing Page**
+
+    ![Lighthouse report for landing page image](assets/readme-files/lighthouse-report-index.png)
+
+    - **Treatments Page**
+
+    ![Lighthouse report for treatmenst page image](assets/readme-files/lighthouse-report-treatments.png)
+
+    - **Book Now Page**
+
+    ![Lighthouse report for book now page image](assets/readme-files/lighthouse-report-book-now.png)
+
+    - **404 Error Page**
+
+    ![Lighthouse report for book now page image](assets/readme-files/lighthouse-report-book-now.png)
+
+### Tools Testing
+
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+
+    - Chrome DevTools was used during the development process to test, explore and modify HTML elements and CSS styles used in the project.
+
+* Responsiveness
+    
+    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
+
+    - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness of the site pages on different screen sizes.
+    
+    - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
+
+### Manual Testing
+
+* Browser Compatibility
+
+    - The website has been tested on the following browsers:
+
+        - **Goolgle Chrome**
+        
+        No appearance, responsiveness nor functionality issues.
+
+        - **Safari**
+        
+        No appearance, responsiveness nor functionality issues.
+
+        - **Mozilla Firefox**
+        
+        There was and issue with the appearance of the book buttons on the treatments page expanding all the width. This issue was corrected by changing the width property value from "fit-content" to "max-content".
+        
+        No responsiveness nor functionality issues.
+
+        - **Microsoft Edge**
+        
+        No appearance, responsiveness nor functionality issues.
+
+* Device compatibility
+
+    - The website has been tested on multiple devices, including:
+
+        - **MacBook Pro 15"**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **Dell Latitude 5300**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **iPad Pro 12.9"**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **iPad Pro 10.5"**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **iPhone XR**
+        
+        No appearance, responsiveness nor functionality issues.
+
+        - **iPhone 7**
+
+        No appearance, responsiveness nor functionality issues.
+
+* Common Elements Testing
+
+    - All Pages
+        
+        - **Header**
+
+            - Clicking on the main logo will bring the customer back to the landing page.
+
+        - **Navigation Bar**
+
+            - Hovering on the different navigation bar's links will trigger hover effect, highlighting the link for the customer.
+
+            - Clicking on the navigation bar's links will bring the customer to the specified page.
+        
+        - **Footer**
+        
+            - Clicking on the social media links will open the specific website on a new tab.
+
+    - Treatments Page
+
+        - Hovering on the book button link on each treatment section will trigger hover effect, highlighting the button for the customer.
+
+        - Clicking on the book button link on each treatment section will bring the customer to the book now page.
+
+    - Book Now Page
+
+        - When filling out the book now form, the customer is required to complete all fields before submitting.
+        
+        - Hovering over the book button will trigger hover effect, highlighting the button for the customer.
+
+        - Clicking and dragging on the map in the find us section will move the area shown on the map. 
+        
+        - Clicking the plus and minus buttons changes the zoom of the map.
+
+    - 404 Error Page
+
+        - Entering an incorrect address into the address bar will bring the customer back to the 404 error page.
+
+        - Hovering on the homepage link will trigger hover effect, increasing the font size of the link's text.
+
+        - Clicking on the homepage link will bring the customer back to the landing page.
+
+[Back to top ⇧](#pura-vida-spa)
+
+
+## Finished Product
+
+Page | Desktop version | Mobile version
+--- | --- | ---
+Index | ![Desktop index page image](assets/readme-files/desktop-index.png) | ![Mobile index page image](assets/readme-files/mobile-index.png)
+Treatments | ![Desktop treatments page image](assets/readme-files/desktop-treatments.png) | ![Mobile treatments page image](assets/readme-files/mobile-treatments.png)
+Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.png) | ![Mobile book now page image](assets/readme-files/mobile-book-now.png)
+404 Error | ![Desktop 404 error page image](assets/readme-files/desktop-404.png) | ![Mobile 404 error page image](assets/readme-files/mobile-404.png)
+
+[Back to top ⇧](#pura-vida-spa)
+
+
+## Deployment
+
+* This website was developed using [GitPod](https://www.gitpod.io/), which was then committed and pushed to GitHub using the GitPod terminal.
+
+### GitHub Pages
+
+* Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
+
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+
+    2. At the top of the Repository, locate the Settings button on the menu.
+
+        - Alternatively click [here](https://raw.githubusercontent.com/) for a GIF demostration of the process.
+
+    3. Scroll down the Settings page until you locate the Pages section.
+
+    4. Under Source, click the dropdown called None and select Master Branch.
+
+    5. The page will refresh automatically and generate a link to your website.
+
+[Back to top ⇧](#pura-vida-spa)
+
+
+## Credits 
+
+### Content
+
+- All content was written by the developer.
+
+### Media
+
+* [Pexels](https://www.pexels.com/)
+
+    - Main image: "Waterfalls in the Middle of Green Trees" by Austin Tsai.
+    - 404 Error Page image: Taken by Artem Beliaikin.
+
+* [Unsplash](https://unsplash.com/)
+
+    - About Us image: "Pristine water lily" by Jay Castor.
+    - Massage image: "Beautiful Woman Getting Stones Massage in Spa Salon" by Engin Akyurt.
+    - Facial image: Taken by Raphael Lovaski.
+    - Pedicure image: "Warm bath before treatment" by Rune Enstad.
+    - Book Now image: Taken by Firos Nv.
+
+### Code
+
+* [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implement.
+
+[Back to top ⇧](#pura-vida-spa)
+
+
+## Acknowledgements
+
+* My partner, for her unconditional love, help and support in all aspects of life to make possible for me to work on this project.
+
+* My family, for their valuable opinions and and critic during the design and development process.
+
+* My tutor, Marcel, for his invaluable feedback and guidance.
+
+* Code Institute and its amazing Slack community for their support and providing me with the necessary knowledge to complete this project.
+
+[Back to top ⇧](#pura-vida-spa)
