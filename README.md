@@ -1,4 +1,4 @@
-# ArtLounge
+# ArtLounge3e
 
 ![Art Lounge 3e mockup images](assets/images/readme_images/responsive_layout_sample.png)
 
@@ -81,13 +81,16 @@ The main font used in the site is Poppins, with Sans Serif as the fallback font 
 
 ### Wireframes
 
-[Balsamiq](https://balsamiq.com/) has been used to showcase the appearance of the site and display the placement of the different elements whitin the pages.
+Manual drawing on a [reMarkable 2](https://remarkable.com/) has been used to draw and develop, directly with the client, the appearance of the site and display the placement of the different elements whitin the pages.
 
-Page | Desktop Version | Mobile Version
---- | --- | ---
-Index | ![Desktop index wireframe image](assets/wireframes/desktop-index.png) | ![Mobile index wireframe image](assets/wireframes/mobile-index.png)
-Treatments | ![Desktop treatments wireframe image](assets/wireframes/desktop-treatments.png) | ![Mobile treatments wireframe image](assets/wireframes/mobile-treatments.png)
-Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-now.png) | ![Mobile book now wireframe image](assets/wireframes/mobile-book-now.png)
+Page | Desktop Version
+--- | --- |
+General | ![General page wireframe sketch](assets/images/readme_images/wireframe_header_main_footer.png)
+Index | ![Index page wireframe sketch](assets/images/readme_images/Wireframe_home.png)
+Schedule | ![Schedule page wireframe sketch](assets/images/readme_images/Wireframe_schedule.png)
+Experiences | ![Experiences page wireframe sketch](assets/images/readme_images/Wireframe_experiences.png)
+Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe_contact.png)
+
 
 [Back to top ⇧](#pura-vida-spa)
 
@@ -96,70 +99,88 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 
 ### General
 
-* Responsive design across all device sizes.
+- Responsive design across all device sizes.
 
-* Similar color scheme and design throughout all pages to effectively structure, categorise and present the information to the customers.
+- Similar color scheme and design throughout all pages to effectively structure, categorise and present the information to the customers.
 
-* **Header**
-![Header image](assets/readme-files/header.png)
+#### Header - Tablet/Desktop version
+
+![Header image](assets/images/readme_images/tablet_menu_open.png)
     
-    - The header contains the business logo and fully responsive navigation bar positioned across the top of the screen.
+- The header contains the business logo and a fully responsive navigation bar positioned across the top of the screen.
 
-    - The business logo functions as a link to the landing page.
+- The business logo functions as a link to the landing page.
 
-    - The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It also has a hover effect that changes color to provide feedback to the customer for a better user experience.
+- The header is always visible and fixed on the top, to allow immediate navigation opportunity also during scrolling
 
-* **Footer**
-![Footer image](assets/readme-files/footer.png)
+- The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It includes also an active page effect (underline)  to provide feedback to the customer for a better user experience.
 
-    - The footer includes a smaller version of the logo and link to the business' social media channels.
+
+#### Header - Mobile version
+
+![Header image mobile version](assets/images/readme_images/mobile_menu_open.png)
+    
+- The header contains the business logo and a fully responsive navigation bar positioned across the top of the screen.
+
+- The business logo functions as a link to the landing page.
+
+- The navigation bar is collapsed with an hamburger menu icon to allow maximum utilization of the screen area when navigation is not needed
+
+- The header is always available and fixed on the top, to allow immediate navigation opportunity also during scrolling
+    
+- The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It includes also an active page effect (background color)  to provide feedback to the customer for a better user experience.
+
+
+#### Footer
+![Footer image Tablet/Desktop version](assets/images/readme_images/footer_tablet.png)
+
+- The footer includes contact information and direct links to the business' social media channels (Facebook, Instagram, Linkedin).
+
+![Footer image Tablet/Mobile version](assets/images/readme_images/footer_mobile.png)
+- The mobile version of the footer has a different layout for the social media links to better utilize the screen space and allow easier tapping of the links.
+
 
 ### Landing Page
 
-* **Main Image**
-![Main image](assets/readme-files/main-image.png)
+#### Welcome Image and Text
+![Welcome image and text](assets/images/readme_images/welcome_section.png)
 
-    - The main image is designed to attract the customer's attention and represents the nature surrounding the business.
+- The Welcome main image is designed to attract the customer attention showing the happy and relaxed athmosphere during the Art Sessions. The message is particularly aimed at attracting new customers with no specific art experience.
+- A direct link to the schedule page is immediately provided, to allow returning customers to easily access the range of offerings
 
-* **About Us Section**
-![About us section image](assets/readme-files/about-us.png)
+##### Experiences Section
+![Experiences section image](assets/images/readme_images/art_experiences.png)
 
-    - Contains a text with information about the business as well as an eye-catching image.
+- Contains three sections for the three different types of offernig (Workshops, Courses, Corporate). They include summary of the offering, an image reflecting the different styles and a direct link to the relevant section for further deeper information.
 
-* **Contact Section**
-![Contact section image](assets/readme-files/contact.png)
+#### Testimonials Section
+![Testimonials section image](assets/images/readme_images/testimonials.png)
+- Contains a selection of Client Testimonials, with name, direct feedback on the session(s) and an image of the output of the Art session. It provides also an immediate snapshot for the user on what he/she can expect to be producing during the sessions..
 
-    - Contains a text with useful geographical information as well as contact details such as the business' physical address, email and phone number.
+### Schedule Page
 
-### Treatments Page
+#### Welcome Section
+![Schedule Welcome section image](assets/images/readme_images/Schedule_welcome.png)
+- The Welcome section contains an image of a past art session, along with general information about the locations where the sessions are offered. Partners logos (locations) are included, and act as links to the relevant websites.
 
-* **Treatment Sections**
-![Treatment section image](assets/readme-files/treatment-section-example.png)
+#### Schedule Section
+![Schedule section image](assets/images/readme_images/Schedule_elements.png)
+- The Schedule section features a list of bookable Art sessions. Each element shows a relevant image, the type of session, the date/time of the event and the cost information. A direct link to the contact page is provided for easy and immediate navigation.
+   
+### Experiences Page
+![Experiences page sample image](assets/images/readme_images/Experiences_sample.png)
 
-    - The treatment section contains an image to illustrate the respective treatment and a short text with an explanation of the treatment.
+- The Experiences Page contains three sections for the three types of offerings. Each Secttion has a different color scheme, to differentiate the offering.
+- Each section features also a list of Art Sessions that can be directly booked or registered for interest. Direct link is provided to allow easy and fast navigation to the contact page.
 
-    - A link to the book now page has been added to each section for easy navigation.
 
-    - Each treatment section is fully responsive and easy to replicate in case more treatments need to be added by the business.
+### Contact Page/Form
+![Contact form image](assets/images/readme_images/contact_form.png)
+- The form allows the customer contact directly the business from the business website.
+- The forms uses validated text inputs to guide the user through the form and minimize mistakes.
+- All field are marked as required, to avoid to send empty messages.
 
-### Book Now Page
-
-* **Book Now Form**
-![Book now form image](assets/readme-files/book-now-form.png)
-
-    - The form allows the customer to book the desired treatment on a specific date directly from the business' website.
-
-* **Find Us Section**
-![Find us section image](assets/readme-files/find-us.png)
-
-    - This section displays a Google map of the business' geographical location. This allows the customers to easily find the location from their devices.
-
-### 404 Error Page
-![404 error page image](assets/readme-files/404-error-page.png)
-
-*  This single page is being shown in case the customer enters an incorrect address into the address bar. It contains a link to the landing page.
-
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#artlounge3e)
 
 
 ## Technologies Used
@@ -171,13 +192,13 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 ### Frameworks, Libraries and Programs Used
 
 * [Google Fonts](https://fonts.google.com/)
-    - Google Fonts was used to import the fonts Raleway, Cabin and Qahiri into the style.css file. These fonts were used throughout the site.
+    - Google Fonts was used to import the font Poppins into the style.css file. This font was used throughout the site.
 
 * [Font Awesome](https://fontawesome.com/)
      - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
 
-* [TinyPNG](https://tinypng.com/)
-    - TinyPNG was used to reduce the file size of the images for the website.
+* [FavIcon.io](https://favicon.io/)
+    - FavIcon.io was used to generate the FavIcon for the website.
 
 * [GitPod](https://gitpod.io/)
      - GitPod was used for writing code, committing, and then pushing to GitHub.
@@ -185,8 +206,6 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 * [GitHub](https://github.com/)
      - GitHub was used to store the project after pushing.
 
-* [Balsamiq](https://balsamiq.com/)
-     - Balsamiq was used to create the wireframes during the design phase of the project.
 
 * [Am I Responsive?](http://ami.responsivedesign.is/#)
     - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
@@ -203,7 +222,7 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     - W3C CSS Validator was used to validate the CSS code.
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#artlounge3e)
 
 
 ## Testing
@@ -299,12 +318,6 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
         - **Safari**
         
         No appearance, responsiveness nor functionality issues.
-
-        - **Mozilla Firefox**
-        
-        There was and issue with the appearance of the book buttons on the treatments page expanding all the width. This issue was corrected by changing the width property value from "fit-content" to "max-content".
-        
-        No responsiveness nor functionality issues.
 
         - **Microsoft Edge**
         
