@@ -23,7 +23,7 @@ body {
     display: none;
 }
 
-/*left border with colour, for section headings*/
+/*left border with color, for section headings*/
 .left {
     border-left: 5px solid #F0CB83;
     padding: 0.5rem;
@@ -78,7 +78,7 @@ header a{
 
 /*Navbar styles with dropdown toggle (hamburger menu)*/
 nav {
-    /* takes away from the normal flow and position nea to the ancestor=header and over the next=main content*/
+    /* takes away from the normal flow and position near to the ancestor=header and over the next=main content*/
     position: absolute;
     background-color: white;
     width: 100%;
@@ -356,7 +356,7 @@ padding: 1rem;
 
 /*Styles for the experiences page*/
 /*similar to the schedule page*/
-/*welcome image and text in two colums, button under the image*/
+/*welcome image and text in two columns, button under the image*/
 /*workshops*/
 #experiences-workshops-welcome-section{
     display: flex;
@@ -580,7 +580,7 @@ footer p {
         flex: 33.3%;
     }
 
-    /*Testimonials on two colums (text and image)*/
+    /*Testimonials on two columns (text and image)*/
     #testimonials {
         display: flex;
         flex-direction: column;
@@ -596,7 +596,7 @@ footer p {
     }
 
     /*schedule page*/
-    /*welcome image and text in 2 colums*/
+    /*welcome image and text in 2 columns*/
     #schedule-picture-message {
         display: flex;
         flex-direction: row;
@@ -623,7 +623,7 @@ footer p {
     }
 
 /*experiences page*/
-    /*welcome image and text in 2 colums*/
+    /*welcome image and text in 2 columns*/
     /*workshops*/
     #experiences-workshops-welcome-section {
         flex-wrap: nowrap;
