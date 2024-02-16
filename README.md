@@ -206,7 +206,6 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
 * [GitHub](https://github.com/)
      - GitHub was used to store the project after pushing.
 
-
 * [Am I Responsive?](http://ami.responsivedesign.is/#)
     - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
@@ -228,35 +227,31 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
 ## Testing
 
 ### Testing User Stories
-
-* As a customer, I want to be able to navigate the website intuitively and learn more about the business and treatments being offered.
+* As a customer, I want to be able to navigate the website intuitively and learn more about the business and Art Experiences being offered.
 
      - The website offers a intuitive structure for the customers to navigate and find the information they are looking for.
 
     - The navigation bar is clearly presented in all pages for the customers to find with ease and it is easily navigable.
 
+* As a customer, I want to be able to read more about the range of Art Experiences offered.
 
-* As a customer, I want to be able to read more about the treatments available.
+    - The experiences page presents all Art sessions available, each on their own section.
 
-    - The treatments page presents all treatments available, each on their own section.
+    - Each element contains useful information about the respective Art session .
 
-    - Each treatment section contains useful information about the respective treatment.
+* As a customer, I want to be able to browse the schedule of bookable Art Experiences.
+    - The schedule page provides a list of all bookable sessions.
+    - each element contains useful information about the respective Art Session an d a direct link to the Contact page.
+
+* As a customer, I want to be able to book an Art Experience directly from the website.
+    - There are different opportunities, on multiple pages (experiences page, schedule page), where a direct link to the contact page is offered
+    - The Contact page provides a form for the customer to book or registe for an Art session.
 
 * As a customer, I want to easily find the contact information for the business.
-
-    - The landing page contains a clear contact section with all necessary business' contacts
+   - All pages contains a clear contact section in the footer with all necessary business' contacts
 
 * As a customer, I want to find social media links to the business.
-
     - The footer provides link to the business' social media channels.
-
-* As a customer, I want to be able to book a treatment directly from the website.
-
-    - The book now page provides a book now form for the customer to book and schedule their next treatment.
-
-* As a customer, I want to easily find the business' location.
-
-    - The book now page contains a find us section with a Google map of the business' geographical location.
 
 
 ### Code Validation
