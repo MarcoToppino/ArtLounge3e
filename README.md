@@ -2,9 +2,9 @@
 
 ![Art Lounge 3e mockup images](assets/images/readme_images/responsive_layout_sample.png)
 
-Art Lounge 3e is an Art Studio located in Lund, Sweden. It provides a variety of Art Exeperiences to private and Corporate customers.
+Art Lounge 3e is an Art Studio located in Lund, Sweden. It provides a variety of Art Experiences to private and corporate customers.
 
-The purpose of this website is to promote Art Lounge 3e providing information to potential customers about the renge of offers from the Art Studio, schedule of bookable events and contact options. The website targets an audience of new customers looking for the acivities being offered as well as returning customers looking to schedule a new event or find out about their new offerings.
+The purpose of this website is to promote Art Lounge 3e providing information to potential customers about the range of offers from the Art Studio, schedule of bookable events and contact options. The website targets an audience of new customers looking for the activities being offered as well as returning customers looking to schedule a new event or find out about their new offerings.
 
 Visit the deployed website [here](https://marcotoppino.github.io/ArtLounge3e/).
 
@@ -19,9 +19,10 @@ Visit the deployed website [here](https://marcotoppino.github.io/ArtLounge3e/).
 2. [Features](#features)
     1. [General](#general)
     2. [Landing Page](#landing-page)
-    3. [Treatments Page](#treatments-page)
-    4. [Book Now Page](#book-now-page)
-    5. [404 Error Page](#404-error-page)
+    3. [Schedule Page](#schedule-page)
+    4. [Experiences Page](#experiences-page)
+    5. [Contact Page](#contact-page)
+    6. [Not implemented](#features-left-to-be-implemented-in-future-releases)
  3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -48,7 +49,7 @@ Visit the deployed website [here](https://marcotoppino.github.io/ArtLounge3e/).
 
 - The website should have a calming and relaxing design, appealing to the customers.
 
-- Present the range of Art Experiences offered and information about them in order to attract more customers.
+- Present the range of Art Experiences offered and information about them to attract more customers.
 
 - Provide the customer with useful information that can facilitate future interaction with the business.
 
@@ -73,7 +74,7 @@ Visit the deployed website [here](https://marcotoppino.github.io/ArtLounge3e/).
 ### Color Scheme
 ![Color scheme image](assets/images/readme_images/color_scheme_canva.png)
 
-The colors used in the site are two different tones of Purple (#CEC1E0 and #C39AFC), a yellow color (#F0CB83) and green color (#B5D6A6). Tee light purple color is used for the structure elements of the website (Navigation Menu, links, separators), while the remaining three colors are connected with the three different range of Art Experiences offered (Workshops, Courses, Corporate). Purple has been chosen as it is broadly recognised as the "Art" colour, while yellow is connected with "Creativity".
+The colors used in the site are two different tones of Purple (#CEC1E0 and #C39AFC), a yellow color (#F0CB83) and green color (#B5D6A6). Tee light purple color is used for the structure elements of the website (Navigation Menu, links, separators), while the remaining three colors are connected with the three different range of Art Experiences offered (Workshops, Courses, Corporate). Purple has been chosen as it is broadly recognized as the "Art" color, while yellow relates to "Creativity".
 
 ### Typography
 
@@ -81,7 +82,7 @@ The main font used in the site is Poppins, with Sans Serif as the fallback font 
 
 ### Wireframes
 
-Manual drawing on a [reMarkable 2](https://remarkable.com/) has been used to draw and develop, directly with the client, the appearance of the site and display the placement of the different elements whitin the pages.
+Manual drawing on a [reMarkable 2](https://remarkable.com/) has been used to draw and develop, directly with the client, the appearance of the site and display the placement of the different elements whithin the pages.
 
 Page | Desktop Version
 --- | --- |
@@ -101,7 +102,7 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
 
 - Responsive design across all device sizes.
 
-- Similar color scheme and design throughout all pages to effectively structure, categorise and present the information to the customers.
+- Similar color scheme and design throughout all pages to effectively structure, categorize and present the information to the customers.
 
 #### Header - Tablet/Desktop version
 
@@ -124,7 +125,7 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
 
 - The business logo functions as a link to the landing page.
 
-- The navigation bar is collapsed with an hamburger menu icon to allow maximum utilization of the screen area when navigation is not needed
+- The navigation bar is collapsed with a hamburger menu icon to allow maximum utilization of the screen area when navigation is not needed
 
 - The header is always available and fixed on the top, to allow immediate navigation opportunity also during scrolling
     
@@ -145,13 +146,13 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
 #### Welcome Image and Text
 ![Welcome image and text](assets/images/readme_images/welcome_section.png)
 
-- The Welcome main image is designed to attract the customer attention showing the happy and relaxed athmosphere during the Art Sessions. The message is particularly aimed at attracting new customers with no specific art experience.
+- The Welcome main image is designed to attract the customer attention showing the happy and relaxed atmosphere during the Art Sessions. The message is particularly aimed at attracting new customers with no specific art experience.
 - A direct link to the schedule page is immediately provided, to allow returning customers to easily access the range of offerings
 
 ##### Experiences Section
 ![Experiences section image](assets/images/readme_images/art_experiences.png)
 
-- Contains three sections for the three different types of offernig (Workshops, Courses, Corporate). They include summary of the offering, an image reflecting the different styles and a direct link to the relevant section for further deeper information.
+- Contains three sections for the three different types of offering (Workshops, Courses, Corporate). They include summary of the offering, an image reflecting the different styles and a direct link to the relevant section for further deeper information.
 
 #### Testimonials Section
 ![Testimonials section image](assets/images/readme_images/testimonials.png)
@@ -174,11 +175,23 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
 - Each section features also a list of Art Sessions that can be directly booked or registered for interest. Direct link is provided to allow easy and fast navigation to the contact page.
 
 
-### Contact Page/Form
+### Contact Page
 ![Contact form image](assets/images/readme_images/contact_form.png)
 - The form allows the customer contact directly the business from the business website.
 - The forms uses validated text inputs to guide the user through the form and minimize mistakes.
 - All field are marked as required, to avoid to send empty messages.
+
+### Features left to be implemented in future releases
+
+- On the landing page, the main image should be converted in a carousel of images, with command buttons and possibly automatic rotation of the images
+- The plain white background should be changed with something that resembles painting objects (brushes, color tubes, etc....) embossed in a canvas.
+- Under the main menu a separator is missing (while it is present over the footer) and should be covered by an irregular vertical stripes pattern.
+- Schedule elements could appear (animation) from the bottom of the page to reach their final position
+- A fully responsive image gallery
+- An "About" page for the Company and the Owner
+- A "Legal terms" page
+- Direct link from the schedule events to a contact + bookig + payment page
+
 
 [Back to top ⇧](#artlounge3e)
 
@@ -245,7 +258,7 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
 
 * As a customer, I want to be able to book an Art Experience directly from the website.
     - There are different opportunities, on multiple pages (experiences page, schedule page), where a direct link to the contact page is offered
-    - The Contact page provides a form for the customer to book or registe for an Art session.
+    - The Contact page provides a form for the customer to book or register for an Art session.
 
 * As a customer, I want to easily find the contact information for the business.
    - All pages contains a clear contact section in the footer with all necessary business' contacts
@@ -295,7 +308,7 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
 
     - The website has been tested on the following browsers:
 
-        - **Goolgle Chrome**
+        - **Google Chrome**
         
         No appearance, responsiveness nor functionality issues.
 
@@ -342,13 +355,13 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
         - **Header**
 
             - Clicking on the main logo will bring the customer back to the landing page.
-            - clicking on the hamburge icon (on small screens) shows the full navigation bar, using all the available space to allow easy tapping on the links.
+            - clicking on the hamburger icon (on small screens) shows the full navigation bar, using all the available space to allow easy tapping on the links.
 
         - **Navigation Bar**
 
             - Clicking on the navigation bar's links will bring the customer to the specified page.
 
-            - In each different page, the navbar shows which page is active, with an underline on large screens, and a coloured background on small screens, highlighting the link for the customer.
+            - In each different page, the navbar shows which page is active, with an underline on large screens, and a colored background on small screens, highlighting the link for the customer.
 
         
         - **Footer**
@@ -358,7 +371,7 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
     - Index Page
 
         - Clicking on the schedule button link, the schedule page is shown
-        - clicking on each experience section button link, the relevan section of the experience page is opened and focused on.
+        - clicking on each experience section button link, the relevant section of the experience page is opened and focused on.
 
     - Schedule Page
         - Clicking on the partners logos, the relevant website is opened on a new tab
@@ -368,7 +381,7 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
         - Clicking on the Get in Touch / Book a session / Register buttons, the Contact page is opened.
 
 
-    - Book Now Page
+    - Contact Page
 
         - When filling out the book now form, the Customer is required to complete all fields before submitting.
         - The e-mail input field requires the correct e-mail format.
@@ -381,9 +394,11 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
 
 Page | Desktop version | Mobile version
 --- | --- | ---
-Index | ![Desktop index page image](assets/readme-files/desktop-index.png) | ![Mobile index page image](assets/readme-files/mobile-index.png)
-Treatments | ![Desktop treatments page image](assets/readme-files/desktop-treatments.png) | ![Mobile treatments page image](assets/readme-files/mobile-treatments.png)
-Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.png) | ![Mobile book now page image](assets/readme-files/mobile-book-now.png)
+Index | ![Desktop index page image](assets/images/readme_images/marcotoppino.github.io_ArtLounge3e_index.png) | ![Mobile index page image](assets/images/readme_images/mobile_marcotoppino.github.io_ArtLounge3e_index.html.png)
+Schedule | ![Desktop schedule page image](assets/images/readme_images/marcotoppino.github.io_ArtLounge3e_schedule.html.png) | ![Mobile schedule page image](assets/images/readme_images/mobile_marcotoppino.github.io_ArtLounge3e_schedule.html.png)
+Experiences | ![Desktop experiences page image](assets/images/readme_images/marcotoppino.github.io_ArtLounge3e_experiences.html.png) | ![Mobile experiences page image](assets/images/readme_images/mobile_marcotoppino.github.io_ArtLounge3e_experiences.html.png)
+Contact | ![Desktop contact page image](assets/images/readme_images/marcotoppino.github.io_ArtLounge3e_contact.html.png) | ![Mobile contact page image](assets/images/readme_images/mobile_marcotoppino.github.io_ArtLounge3e_contact.html.png)
+
 
 [Back to top ⇧](#ArtLounge3e)
 
@@ -400,53 +415,40 @@ Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.p
 
     2. At the top of the Repository, locate the Settings button on the menu.
 
-        - Alternatively click [here](https://raw.githubusercontent.com/) for a GIF demostration of the process.
-
     3. Scroll down the Settings page until you locate the Pages section.
 
     4. Under Source, click the dropdown called None and select Master Branch.
 
     5. The page will refresh automatically and generate a link to your website.
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#ArtLounge3e)
 
 
 ## Credits 
 
 ### Content
 
-- All content was written by the developer.
+- All content is courtesy of Art Lounge 3e.
 
 ### Media
 
-* [Pexels](https://www.pexels.com/)
-
-    - Main image: "Waterfalls in the Middle of Green Trees" by Austin Tsai.
-    - 404 Error Page image: Taken by Artem Beliaikin.
-
-* [Unsplash](https://unsplash.com/)
-
-    - About Us image: "Pristine water lily" by Jay Castor.
-    - Massage image: "Beautiful Woman Getting Stones Massage in Spa Salon" by Engin Akyurt.
-    - Facial image: Taken by Raphael Lovaski.
-    - Pedicure image: "Warm bath before treatment" by Rune Enstad.
-    - Book Now image: Taken by Firos Nv.
+- All pictures are courtesy of Art Lounge 3e.
 
 ### Code
 
-* [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implement.
+* [W3Schools](https://www.w3schools.com/) was consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implement.
 
-[Back to top ⇧](#pura-vida-spa)
+* [CodeInstitute](https://codeinstitute.net/) - The LoveRunning Project - was used as base for a specific feature (CSS only, no Java version of the mobile navigation menu and hamburger icon)
+
+[Back to top ⇧](#ArtLounge3e)
 
 
 ## Acknowledgements
 
-* My partner, for her unconditional love, help and support in all aspects of life to make possible for me to work on this project.
+* The owner of Art Lounge 3e - Ghada Atallah Anderson, for the inspiration on the web design, all the pictures and the text used.
 
-* My family, for their valuable opinions and and critic during the design and development process.
-
-* My tutor, Marcel, for his invaluable feedback and guidance.
+* My tutor, Marcel, for his excellent feedback and guidance.
 
 * Code Institute and its amazing Slack community for their support and providing me with the necessary knowledge to complete this project.
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](ArtLounge3e)
