@@ -311,6 +311,10 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
 
     - The website has been tested on multiple devices, including:
 
+        - **27"Desktop**
+
+        No appearance, responsiveness nor functionality issues.
+
         - **24"Desktop**
 
         No appearance, responsiveness nor functionality issues.
@@ -338,33 +342,38 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
         - **Header**
 
             - Clicking on the main logo will bring the customer back to the landing page.
+            - clicking on the hamburge icon (on small screens) shows the full navigation bar, using all the available space to allow easy tapping on the links.
 
         - **Navigation Bar**
 
-            - Hovering on the different navigation bar's links will trigger hover effect, highlighting the link for the customer.
-
             - Clicking on the navigation bar's links will bring the customer to the specified page.
+
+            - In each different page, the navbar shows which page is active, with an underline on large screens, and a coloured background on small screens, highlighting the link for the customer.
+
         
         - **Footer**
         
             - Clicking on the social media links will open the specific website on a new tab.
 
-    - Treatments Page
+    - Index Page
 
-        - Hovering on the book button link on each treatment section will trigger hover effect, highlighting the button for the customer.
+        - Clicking on the schedule button link, the schedule page is shown
+        - clicking on each experience section button link, the relevan section of the experience page is opened and focused on.
 
-        - Clicking on the book button link on each treatment section will bring the customer to the book now page.
+    - Schedule Page
+        - Clicking on the partners logos, the relevant website is opened on a new tab
+        - Clicking on the Book Your Spot buttons, the Contact page is opened.
+
+    - Experiences Page
+        - Clicking on the Get in Touch / Book a session / Register buttons, the Contact page is opened.
+
 
     - Book Now Page
 
-        - When filling out the book now form, the customer is required to complete all fields before submitting.
+        - When filling out the book now form, the Customer is required to complete all fields before submitting.
+        - The e-mail input field requires the correct e-mail format.
+        - The submit button sends the data from the form to the server in the correct format.
         
-        - Hovering over the book button will trigger hover effect, highlighting the button for the customer.
-
-        - Clicking and dragging on the map in the find us section will move the area shown on the map. 
-        
-        - Clicking the plus and minus buttons changes the zoom of the map.
-
 [Back to top ⇧](#ArtLounge3e)
 
 
@@ -375,9 +384,8 @@ Page | Desktop version | Mobile version
 Index | ![Desktop index page image](assets/readme-files/desktop-index.png) | ![Mobile index page image](assets/readme-files/mobile-index.png)
 Treatments | ![Desktop treatments page image](assets/readme-files/desktop-treatments.png) | ![Mobile treatments page image](assets/readme-files/mobile-treatments.png)
 Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.png) | ![Mobile book now page image](assets/readme-files/mobile-book-now.png)
-404 Error | ![Desktop 404 error page image](assets/readme-files/desktop-404.png) | ![Mobile 404 error page image](assets/readme-files/mobile-404.png)
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#ArtLounge3e)
 
 
 ## Deployment
