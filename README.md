@@ -87,10 +87,10 @@ Manual drawing on a [reMarkable 2](https://remarkable.com/) has been used to dra
 Page | Desktop Version
 --- | --- |
 General | ![General page wireframe sketch](assets/images/readme_images/wireframe_header_main_footer.png)
-Index | ![Index page wireframe sketch](assets/images/readme_images/Wireframe_home.png)
-Schedule | ![Schedule page wireframe sketch](assets/images/readme_images/Wireframe_schedule.png)
-Experiences | ![Experiences page wireframe sketch](assets/images/readme_images/Wireframe_experiences.png)
-Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe_contact.png)
+Index | ![Index page wireframe sketch](assets/images/readme_images/wireframe_home.png)
+Schedule | ![Schedule page wireframe sketch](assets/images/readme_images/wireframe_schedule.png)
+Experiences | ![Experiences page wireframe sketch](assets/images/readme_images/wireframe_experiences.png)
+Contact | ![Contact page wireframe sketch](assets/images/readme_images/wireframe_contact.png)
 
 
 [Back to top ⇧](#pura-vida-spa)
@@ -161,15 +161,15 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
 ### Schedule Page
 
 #### Welcome Section
-![Schedule Welcome section image](assets/images/readme_images/Schedule_welcome.png)
+![Schedule Welcome section image](assets/images/readme_images/schedule_welcome.png)
 - The Welcome section contains an image of a past art session, along with general information about the locations where the sessions are offered. Partners logos (locations) are included, and act as links to the relevant websites.
 
 #### Schedule Section
-![Schedule section image](assets/images/readme_images/Schedule_elements.png)
+![Schedule section image](assets/images/readme_images/schedule_elements.png)
 - The Schedule section features a list of bookable Art sessions. Each element shows a relevant image, the type of session, the date/time of the event and the cost information. A direct link to the contact page is provided for easy and immediate navigation.
    
 ### Experiences Page
-![Experiences page sample image](assets/images/readme_images/Experiences_sample.png)
+![Experiences page sample image](assets/images/readme_images/experiences_sample.png)
 
 - The Experiences Page contains three sections for the three types of offerings. Each Secttion has a different color scheme, to differentiate the offering.
 - Each section features also a list of Art Sessions that can be directly booked or registered for interest. Direct link is provided to allow easy and fast navigation to the contact page.
@@ -394,10 +394,10 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
 
 Page | Desktop version | Mobile version
 --- | --- | ---
-Index | ![Desktop index page image](assets/images/readme_images/marcotoppino.github.io_ArtLounge3e_index.png) | ![Mobile index page image](assets/images/readme_images/mobile_marcotoppino.github.io_ArtLounge3e_index.html.png)
-Schedule | ![Desktop schedule page image](assets/images/readme_images/marcotoppino.github.io_ArtLounge3e_schedule.html.png) | ![Mobile schedule page image](assets/images/readme_images/mobile_marcotoppino.github.io_ArtLounge3e_schedule.html.png)
-Experiences | ![Desktop experiences page image](assets/images/readme_images/marcotoppino.github.io_ArtLounge3e_experiences.html.png) | ![Mobile experiences page image](assets/images/readme_images/mobile_marcotoppino.github.io_ArtLounge3e_experiences.html.png)
-Contact | ![Desktop contact page image](assets/images/readme_images/marcotoppino.github.io_ArtLounge3e_contact.html.png) | ![Mobile contact page image](assets/images/readme_images/mobile_marcotoppino.github.io_ArtLounge3e_contact.html.png)
+Index | ![Desktop index page image](assets/images/readme_images/marcotoppino.github.io_artlounge3e_index.png) | ![Mobile index page image](assets/images/readme_images/mobile_marcotoppino.github.io_artlounge3e_index.html.png)
+Schedule | ![Desktop schedule page image](assets/images/readme_images/marcotoppino.github.io_artlounge3e_schedule.html.png) | ![Mobile schedule page image](assets/images/readme_images/mobile_marcotoppino.github.io_artlounge3e_schedule.html.png)
+Experiences | ![Desktop experiences page image](assets/images/readme_images/marcotoppino.github.io_artlounge3e_experiences.html.png) | ![Mobile experiences page image](assets/images/readme_images/mobile_marcotoppino.github.io_artlounge3e_experiences.html.png)
+Contact | ![Desktop contact page image](assets/images/readme_images/marcotoppino.github.io_artlounge3e_contact.html.png) | ![Mobile contact page image](assets/images/readme_images/mobile_marcotoppino.github.io_artlounge3e_contact.html.png)
 
 
 [Back to top ⇧](#ArtLounge3e)
