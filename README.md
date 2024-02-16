@@ -412,14 +412,10 @@ Contact | ![Desktop contact page image](readme_files/marcotoppino.github.io_artl
 * Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
 
     1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
-
-    2. At the top of the Repository, locate the Settings button on the menu.
-
+    2. At the top of the Repository, locate the Settings tab on the menu.
     3. Scroll down the Settings page until you locate the Pages section.
-
-    4. Under Source, click the dropdown called None and select Master Branch.
-
-    5. The page will refresh automatically and generate a link to your website.
+    4. Under Build and deployment, select "Deploy from a Branch" from the Source dropdown list.
+    5. Under Branch, select Main and /Root from the relevant dropdown lists, then click Save.
 
 [Back to top ⇧](#ArtLounge3e)
 
