@@ -1,6 +1,6 @@
 # ArtLounge3e
 
-![Art Lounge 3e mockup images](assets/images/readme_images/responsive_layout_sample.png)
+![Art Lounge 3e mockup images](readme_files/responsive_layout_sample.png)
 
 Art Lounge 3e is an Art Studio located in Lund, Sweden. It provides a variety of Art Experiences to private and corporate customers.
 
@@ -72,7 +72,7 @@ Visit the deployed website [here](https://marcotoppino.github.io/ArtLounge3e/).
 
 
 ### Color Scheme
-![Color scheme image](assets/images/readme_images/color_scheme_canva.png)
+![Color scheme image](readme_files/color_scheme_canva.png)
 
 The colors used in the site are two different tones of Purple (#CEC1E0 and #C39AFC), a yellow color (#F0CB83) and green color (#B5D6A6). Tee light purple color is used for the structure elements of the website (Navigation Menu, links, separators), while the remaining three colors are connected with the three different range of Art Experiences offered (Workshops, Courses, Corporate). Purple has been chosen as it is broadly recognized as the "Art" color, while yellow relates to "Creativity".
 
@@ -86,11 +86,11 @@ Manual drawing on a [reMarkable 2](https://remarkable.com/) has been used to dra
 
 Page | Desktop Version
 --- | --- |
-General | ![General page wireframe sketch](assets/images/readme_images/wireframe_header_main_footer.png)
-Index | ![Index page wireframe sketch](assets/images/readme_images/wireframe_home.png)
-Schedule | ![Schedule page wireframe sketch](assets/images/readme_images/wireframe_schedule.png)
-Experiences | ![Experiences page wireframe sketch](assets/images/readme_images/wireframe_experiences.png)
-Contact | ![Contact page wireframe sketch](assets/images/readme_images/wireframe_contact.png)
+General | ![General page wireframe sketch](readme_files/wireframe_header_main_footer.png)
+Index | ![Index page wireframe sketch](readme_files/wireframe_home.png)
+Schedule | ![Schedule page wireframe sketch](readme_files/wireframe_schedule.png)
+Experiences | ![Experiences page wireframe sketch](readme_files/wireframe_experiences.png)
+Contact | ![Contact page wireframe sketch](readme_files/wireframe_contact.png)
 
 
 [Back to top ⇧](#pura-vida-spa)
@@ -106,7 +106,7 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/wireframe
 
 #### Header - Tablet/Desktop version
 
-![Header image](assets/images/readme_images/tablet_menu_open.png)
+![Header image](readme_files/tablet_menu_open.png)
     
 - The header contains the business logo and a fully responsive navigation bar positioned across the top of the screen.
 
@@ -119,7 +119,7 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/wireframe
 
 #### Header - Mobile version
 
-![Header image mobile version](assets/images/readme_images/mobile_menu_open.png)
+![Header image mobile version](readme_files/mobile_menu_open.png)
     
 - The header contains the business logo and a fully responsive navigation bar positioned across the top of the screen.
 
@@ -133,50 +133,50 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/wireframe
 
 
 #### Footer
-![Footer image Tablet/Desktop version](assets/images/readme_images/footer_tablet.png)
+![Footer image Tablet/Desktop version](readme_files/footer_tablet.png)
 
 - The footer includes contact information and direct links to the business' social media channels (Facebook, Instagram, Linkedin).
 
-![Footer image Tablet/Mobile version](assets/images/readme_images/footer_mobile.png)
+![Footer image Tablet/Mobile version](readme_files/footer_mobile.png)
 - The mobile version of the footer has a different layout for the social media links to better utilize the screen space and allow easier tapping of the links.
 
 
 ### Landing Page
 
 #### Welcome Image and Text
-![Welcome image and text](assets/images/readme_images/welcome_section.png)
+![Welcome image and text](readme_files/welcome_section.png)
 
 - The Welcome main image is designed to attract the customer attention showing the happy and relaxed atmosphere during the Art Sessions. The message is particularly aimed at attracting new customers with no specific art experience.
 - A direct link to the schedule page is immediately provided, to allow returning customers to easily access the range of offerings
 
 ##### Experiences Section
-![Experiences section image](assets/images/readme_images/art_experiences.png)
+![Experiences section image](readme_files/art_experiences.png)
 
 - Contains three sections for the three different types of offering (Workshops, Courses, Corporate). They include summary of the offering, an image reflecting the different styles and a direct link to the relevant section for further deeper information.
 
 #### Testimonials Section
-![Testimonials section image](assets/images/readme_images/testimonials.png)
+![Testimonials section image](readme_files/testimonials.png)
 - Contains a selection of Client Testimonials, with name, direct feedback on the session(s) and an image of the output of the Art session. It provides also an immediate snapshot for the user on what he/she can expect to be producing during the sessions..
 
 ### Schedule Page
 
 #### Welcome Section
-![Schedule Welcome section image](assets/images/readme_images/schedule_welcome.png)
+![Schedule Welcome section image](readme_files/schedule_welcome.png)
 - The Welcome section contains an image of a past art session, along with general information about the locations where the sessions are offered. Partners logos (locations) are included, and act as links to the relevant websites.
 
 #### Schedule Section
-![Schedule section image](assets/images/readme_images/schedule_elements.png)
+![Schedule section image](readme_files/schedule_elements.png)
 - The Schedule section features a list of bookable Art sessions. Each element shows a relevant image, the type of session, the date/time of the event and the cost information. A direct link to the contact page is provided for easy and immediate navigation.
    
 ### Experiences Page
-![Experiences page sample image](assets/images/readme_images/experiences_sample.png)
+![Experiences page sample image](readme_files/experiences_sample.png)
 
 - The Experiences Page contains three sections for the three types of offerings. Each Secttion has a different color scheme, to differentiate the offering.
 - Each section features also a list of Art Sessions that can be directly booked or registered for interest. Direct link is provided to allow easy and fast navigation to the contact page.
 
 
 ### Contact Page
-![Contact form image](assets/images/readme_images/contact_form.png)
+![Contact form image](readme_files/contact_form.png)
 - The form allows the customer contact directly the business from the business website.
 - The forms uses validated text inputs to guide the user through the form and minimize mistakes.
 - All field are marked as required, to avoid to send empty messages.
@@ -274,9 +274,9 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/wireframe
     - W3C Markup Validator gave a warning concerning headings not being included in the welcome image section. The section heading was included with a relevant text and then hidden through CSS. 
     
     - Different istances of the same error was found by W3C Markup Validator concerning an a element included in a button element. The error was corrected styling directly the a element to look like a button.
-    ![HTML validation warnings and errors](assets/images/readme_images/mistakes%20after%20validation.png)
+    ![HTML validation warnings and errors](readme_files/mistakes_after_validation.png)
     - After correction, the W3C markup Validator showed no errors or warnings.
-    ![HTML validation of full HTML code](assets/images/readme_images/html_validation.png)
+    ![HTML validation of full HTML code](readme_files/html_validation.png)
 
     -  W3C CSS Validator found no errors or warnings on my CSS.
     ![CSS validation of full CSS code](assets/images/readme_images/css_validation.png)
@@ -286,7 +286,7 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/wireframe
 
 * Used Lighthouse in Chrome DevTools to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
 
-    ![Lighthouse report for whole site](assets/images/readme_images/lighthouse_report.png)
+    ![Lighthouse report for whole site](readme_files/lighthouse_report.png)
 
 ### Tools Testing
 
@@ -394,10 +394,10 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/wireframe
 
 Page | Desktop version | Mobile version
 --- | --- | ---
-Index | ![Desktop index page image](assets/images/readme_images/marcotoppino.github.io_artlounge3e_index.png) | ![Mobile index page image](assets/images/readme_images/mobile_marcotoppino.github.io_artlounge3e_index.html.png)
-Schedule | ![Desktop schedule page image](assets/images/readme_images/marcotoppino.github.io_artlounge3e_schedule.html.png) | ![Mobile schedule page image](assets/images/readme_images/mobile_marcotoppino.github.io_artlounge3e_schedule.html.png)
-Experiences | ![Desktop experiences page image](assets/images/readme_images/marcotoppino.github.io_artlounge3e_experiences.html.png) | ![Mobile experiences page image](assets/images/readme_images/mobile_marcotoppino.github.io_artlounge3e_experiences.html.png)
-Contact | ![Desktop contact page image](assets/images/readme_images/marcotoppino.github.io_artlounge3e_contact.html.png) | ![Mobile contact page image](assets/images/readme_images/mobile_marcotoppino.github.io_artlounge3e_contact.html.png)
+Index | ![Desktop index page image](readme_files/marcotoppino.github.io_artlounge3e_index.png) | ![Mobile index page image](readme_files/mobile_marcotoppino.github.io_artlounge3e_index.html.png)
+Schedule | ![Desktop schedule page image](readme_files/marcotoppino.github.io_artlounge3e_schedule.html.png) | ![Mobile schedule page image](readme_files/mobile_marcotoppino.github.io_artlounge3e_schedule.html.png)
+Experiences | ![Desktop experiences page image](readme_files/marcotoppino.github.io_artlounge3e_experiences.html.png) | ![Mobile experiences page image](readme_files/mobile_marcotoppino.github.io_artlounge3e_experiences.html.png)
+Contact | ![Desktop contact page image](readme_files/marcotoppino.github.io_artlounge3e_contact.html.png) | ![Mobile contact page image](readme_files/mobile_marcotoppino.github.io_artlounge3e_contact.html.png)
 
 
 [Back to top ⇧](#ArtLounge3e)
