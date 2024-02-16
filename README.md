@@ -311,27 +311,23 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
 
     - The website has been tested on multiple devices, including:
 
-        - **MacBook Pro 15"**
+        - **24"Desktop**
 
         No appearance, responsiveness nor functionality issues.
 
-        - **Dell Latitude 5300**
+        - **15" Notebook**
 
         No appearance, responsiveness nor functionality issues.
 
-        - **iPad Pro 12.9"**
+        - **iPad Mini**
 
         No appearance, responsiveness nor functionality issues.
 
-        - **iPad Pro 10.5"**
-
-        No appearance, responsiveness nor functionality issues.
-
-        - **iPhone XR**
+        - **Samsung Galazy Note9**
         
         No appearance, responsiveness nor functionality issues.
 
-        - **iPhone 7**
+        - **Samsung Fold**
 
         No appearance, responsiveness nor functionality issues.
 

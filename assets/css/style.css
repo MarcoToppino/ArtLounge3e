@@ -552,7 +552,6 @@ footer p {
     /*carousel and welcome side-by side*/
     #carousel-welcome-container {
         display: flex;
-        flex-wrap: nowrap;
     }
     
     #welcome-section{
@@ -566,7 +565,7 @@ footer p {
         flex: 50%;
     }
     
-    #carousel-image{
+    #carousel-section img{
         max-width: 700px;
         max-height: 700px;
     }
