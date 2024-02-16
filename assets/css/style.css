@@ -76,7 +76,7 @@ header a{
     border-bottom: 1px solid #e8e8e8;
 }
 
-/*Navbar styles with dropdown toggle (hamburger meu)*/
+/*Navbar styles with dropdown toggle (hamburger menu)*/
 nav {
     /* takes away from the normal flow and position nea to the ancestor=header and over the next=main content*/
     position: absolute;
@@ -87,6 +87,10 @@ nav {
     display: none;
     /*top of the element (nav) starts at the bottom of the parent (header) - needed for the dropdown*/
     top: 100%;
+}
+
+#menu-container i {
+    margin-right: 1rem;
 }
 
 /*Nav toggle = pseudoclass of checkboxes (checked) and apply to the sibling elements (nav) */

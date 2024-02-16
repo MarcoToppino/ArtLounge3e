@@ -258,33 +258,22 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
 
 * The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate all pages of the project in order to ensure there were no syntax errors.
 
-    - W3C Markup Validator found an error concerning headings not being included on the main and book now images. The section tag was replaced for a div tag to correct this. 
+    - W3C Markup Validator gave a warning concerning headings not being included in the welcome image section. The section heading was included with a relevant text and then hidden through CSS. 
     
-    - Another error found by W3C Markup Validator was concerning a percentage value used inside the iframe tag to declare the width property on the Book Now page. The width and height properties for the iframe were declared inside the CSS file instead.
+    - Different istances of the same error was found by W3C Markup Validator concerning an a element included in a button element. The error was corrected styling directly the a element to look like a button.
+    ![HTML validation warnings and errors](assets/images/readme_images/mistakes%20after%20validation.png)
+    - After correction, the W3C markup Validator showed no errors or warnings.
+    ![HTML validation of full HTML code](assets/images/readme_images/html_validation.png)
 
     -  W3C CSS Validator found no errors or warnings on my CSS.
+    ![CSS validation of full CSS code](assets/images/readme_images/css_validation.png)
+
 
 ### Accessibility
 
 * Used Lighthouse in Chrome DevTools to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
 
-* Lighthouse reports
-
-    - **Landing Page**
-
-    ![Lighthouse report for landing page image](assets/readme-files/lighthouse-report-index.png)
-
-    - **Treatments Page**
-
-    ![Lighthouse report for treatmenst page image](assets/readme-files/lighthouse-report-treatments.png)
-
-    - **Book Now Page**
-
-    ![Lighthouse report for book now page image](assets/readme-files/lighthouse-report-book-now.png)
-
-    - **404 Error Page**
-
-    ![Lighthouse report for book now page image](assets/readme-files/lighthouse-report-book-now.png)
+    ![Lighthouse report for whole site](assets/images/readme_images/lighthouse_report.png)
 
 ### Tools Testing
 
@@ -380,15 +369,7 @@ Contact | ![Contact page wireframe sketch](assets/images/readme_images/Wireframe
         
         - Clicking the plus and minus buttons changes the zoom of the map.
 
-    - 404 Error Page
-
-        - Entering an incorrect address into the address bar will bring the customer back to the 404 error page.
-
-        - Hovering on the homepage link will trigger hover effect, increasing the font size of the link's text.
-
-        - Clicking on the homepage link will bring the customer back to the landing page.
-
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#ArtLounge3e)
 
 
 ## Finished Product
